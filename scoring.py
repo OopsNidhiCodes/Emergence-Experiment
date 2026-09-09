@@ -12,6 +12,13 @@ not learned it at all):
   copied_operand     - echoed a number from the question instead of computing
   copied_exemplar    - echoed an ANSWER from the few-shot examples (strong
                        evidence of format-copying without computation)
+  dropped_operand    - applied a later operation to only ONE addend, dropping
+                       the other, e.g. (4+19)*5 -> 95 because it computed
+                       19*5 and never added the 4. This is a SPECIFIC
+                       algorithmic failure (the multiplication executes but
+                       the addition result is never bound as its operand),
+                       and is much stronger evidence of partial algorithm
+                       acquisition than a generic magnitude miss.
   partial_step       - matches the result of a CORRECT PREFIX of the expression
                        (e.g. computed (a+b) but stopped before "* c").
                        This is the strongest evidence of partial algorithm
@@ -83,6 +90,19 @@ def operand_values(expression):
     return {int(m) for m in re.findall(r"\d+", expression)}
 
 
+def dropped_operand_values(expression):
+    """
+    Values obtained by applying the outer operation to only ONE of the two
+    addends inside the innermost parenthesis, ignoring the other.
+    For "(4 + 19) * 5" this returns {20, 95} (4*5 and 19*5).
+    """
+    m = re.search(r"\((\d+) \+ (\d+)\)\s*\*\s*(\d+)", expression)
+    if not m:
+        return set()
+    a, b, c = (int(x) for x in m.groups())
+    return {a * c, b * c}
+
+
 def classify(true_answer, predicted, expression):
     if predicted is None:
         return "no_answer"
@@ -103,6 +123,9 @@ def classify(true_answer, predicted, expression):
     prefixes = prefix_values(expression) - {true_val} - operands
     if pred_val in prefixes:
         return "partial_step"
+
+    if pred_val in dropped_operand_values(expression):
+        return "dropped_operand"
 
     if pred_val in operands:
         return "copied_operand"
@@ -165,8 +188,8 @@ def main():
     for r in records:
         summary[(r["model"], r.get("shots"), r["tier"])][r["error_type"]] += 1
 
-    cols = ["correct", "partial_step", "carry_error", "near_miss",
-            "magnitude_error", "copied_operand", "copied_exemplar",
+    cols = ["correct", "partial_step", "dropped_operand", "carry_error",
+            "near_miss", "magnitude_error", "copied_operand", "copied_exemplar",
             "no_answer", "random"]
     print(f"{'model':<26}{'sh':>3} {'tier':<13}" + "".join(f"{c[:9]:>11}" for c in cols))
     for (model, shots, tier), counts in sorted(summary.items()):
@@ -175,9 +198,12 @@ def main():
               + "".join(f"{counts.get(c, 0):>11}" for c in cols))
 
     print(f"\nWrote {len(records)} scored records to {SCORED_PATH}")
-    print("\nNote: 'partial_step' is the key column for RQ2 - it counts cases where")
-    print("the model correctly computed part of a multi-step expression, which is")
-    print("direct evidence of partial algorithm acquisition rather than guessing.")
+    print("\nNote: 'partial_step' and 'dropped_operand' are the key RQ2 columns.")
+    print("Both count cases where the model executed PART of the algorithm correctly:")
+    print("  partial_step    - stopped after a correct prefix of the expression")
+    print("  dropped_operand - ran the outer operation on one addend only")
+    print("These are structured failures, not guessing, and their rise with scale is")
+    print("behavioral evidence of partial algorithm acquisition.")
 
 
 if __name__ == "__main__":

@@ -82,6 +82,51 @@ def make_carrying(n):
     return _simple_add("carrying", n, 10, 99, force_carry=True)
 
 
+def make_mult_single(n):
+    """
+    Single-step MULTIPLICATION, with the same operand ranges the depth
+    tiers use for their multiplication step (2-40 times 2-9).
+
+    Why this tier exists: the compounding prediction p^k assumes every step
+    is drawn from the same difficulty distribution. The depth tiers mix
+    addition and multiplication, so estimating p from an addition-only tier
+    and raising it to the k-th power compares different operations and is
+    not a valid test. This tier gives a separate per-step estimate for
+    multiplication so the prediction can be built operation-by-operation
+    (see operation_aware_prediction in analysis.py).
+    """
+    items = []
+    for i in range(n):
+        a = random.randint(4, 40)   # plausible (a+b) sums from the depth tiers
+        c = random.randint(2, 9)
+        items.append({
+            "id": f"mult_single_{i:02d}",
+            "tier": "mult_single",
+            "axis": "surface_difficulty",
+            "expression": f"{a} * {c}",
+            "answer": str(a * c),
+            "num_steps": 1,
+        })
+    return items
+
+
+def make_sub_single(n):
+    """Single-step SUBTRACTION - the third operation used in depth_4/5."""
+    items = []
+    for i in range(n):
+        a = random.randint(20, 300)
+        b = random.randint(2, 20)
+        items.append({
+            "id": f"sub_single_{i:02d}",
+            "tier": "sub_single",
+            "axis": "surface_difficulty",
+            "expression": f"{a} - {b}",
+            "answer": str(a - b),
+            "num_steps": 1,
+        })
+    return items
+
+
 # ----------------------------------------------------------------------
 # AXIS 1: step depth (the compounding axis)
 # ----------------------------------------------------------------------
@@ -115,6 +160,10 @@ def make_depth(k, n):
         else:
             raise ValueError(f"unsupported depth {k}")
 
+        # Operation sequence, in evaluation order. analysis.py uses this to
+        # build an operation-aware compounding prediction instead of p^k.
+        ops = ["add", "mult", "add", "sub", "mult"][:k]
+
         items.append({
             "id": f"depth_{k}_{i:02d}",
             "tier": f"depth_{k}",
@@ -122,6 +171,7 @@ def make_depth(k, n):
             "expression": expr,
             "answer": str(eval(expr)),  # safe: expression built here, not user input
             "num_steps": k,
+            "operations": ops,
         })
     return items
 
@@ -173,6 +223,8 @@ def build_benchmark(per_tier):
     tasks += make_two_digit(per_tier)
     tasks += make_three_digit(per_tier)
     tasks += make_carrying(per_tier)
+    tasks += make_mult_single(per_tier)
+    tasks += make_sub_single(per_tier)
     # Axis 1 - step depth
     for k in [1, 2, 3, 4, 5]:
         tasks += make_depth(k, per_tier)

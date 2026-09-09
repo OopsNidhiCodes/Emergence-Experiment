@@ -108,7 +108,7 @@ def load(shots=None, exclude_heldout=False):
 
 def aggregate(records):
     """-> {tier: {size: {accuracy, lo, hi, n, mean_log_prob, num_steps}}}"""
-    agg = defaultdict(lambda: defaultdict(lambda: {"c": 0, "n": 0, "lp": [], "k": None}))
+    agg = defaultdict(lambda: defaultdict(lambda: {"c": 0, "n": 0, "lp": [], "k": None, "ops": None}))
     unknown = set()
     for r in records:
         size = MODEL_SIZE_MAP.get(r["model"])
@@ -119,6 +119,8 @@ def aggregate(records):
         b["c"] += r["exact_match"]
         b["n"] += 1
         b["k"] = r["num_steps"]
+        if r.get("operations"):
+            b["ops"] = r["operations"]
         if r.get("log_prob") is not None:
             b["lp"].append(r["log_prob"])
     if unknown:
@@ -137,6 +139,7 @@ def aggregate(records):
                 "n": b["n"],
                 "mean_log_prob": float(np.mean(b["lp"])) if b["lp"] else None,
                 "num_steps": b["k"],
+                "operations": b["ops"],
             }
     return out
 
@@ -144,56 +147,94 @@ def aggregate(records):
 # ---------------- RQ1a: compounding test ----------------
 
 def compounding_test(agg):
-    """Compare measured accuracy at depth k against p(k=1)^k, per model size."""
-    if "depth_1" not in agg:
-        print("No depth_1 tier found - cannot estimate per-step accuracy.")
+    """
+    Operation-aware compounding test.
+
+    The naive form of this test estimates a single per-step accuracy p and
+    predicts p^k. That is only valid if every step is equally hard. It is
+    NOT valid here: depth_1 is addition only, while depth_2+ also require
+    multiplication and subtraction. Estimating p from addition alone and
+    raising it to the k-th power compares different operations and produces
+    a meaningless prediction (in an earlier run it predicted 100% at every
+    depth because single-step addition was at ceiling).
+
+    Instead we estimate a SEPARATE per-step accuracy for each operation from
+    its own single-step tier:
+
+        p_add   from depth_1      (a + b)
+        p_mult  from mult_single  (a * c)
+        p_sub   from sub_single   (a - b)
+
+    and predict a depth-k item as the product over its actual operation
+    sequence, e.g. depth_3 = ["add","mult","add"] -> p_add * p_mult * p_add.
+
+    Residual = measured - predicted.
+      near 0            -> the depth effect is compounding (metric artifact)
+      large negative    -> the model fails FASTER than independent per-step
+                           errors predict; something beyond compounding is
+                           breaking (e.g. it cannot chain steps at all)
+      large positive    -> better than compounding predicts
+    """
+    OP_TIERS = {"add": "depth_1", "mult": "mult_single", "sub": "sub_single"}
+
+    missing = [t for t in OP_TIERS.values() if t not in agg]
+    if missing:
+        print(f"\nCannot run operation-aware compounding test - missing tier(s): {missing}")
+        print("Re-generate the benchmark (python benchmark.py) and re-run inference.")
         return None
 
     depth_tiers = sorted(
-        [t for t in agg if t.startswith("depth_")],
+        [t for t in agg if t.startswith("depth_") and t != "depth_1"],
         key=lambda t: int(t.split("_")[1]),
     )
     sizes = sorted(agg["depth_1"].keys())
 
     print("\n" + "=" * 78)
-    print("RQ1a - COMPOUNDING-PROBABILITY TEST")
+    print("RQ1a - OPERATION-AWARE COMPOUNDING TEST")
     print("=" * 78)
-    print("Residual = measured - predicted.  |residual| near 0 supports the")
-    print("metric-artifact account: the drop with depth is just p^k.\n")
+    print("Per-step accuracy is estimated PER OPERATION from its own single-step")
+    print("tier, then multiplied along each item's actual operation sequence.\n")
 
     rows = []
     for size in sizes:
-        p_step = agg["depth_1"][size]["accuracy"]
-        print(f"  model size {size:.1e}   per-step accuracy p = {p_step:.3f}")
-        print(f"    {'depth':>6} {'predicted':>10} {'measured':>10} {'residual':>10}   {'95% CI':>16}")
+        p = {op: agg[tier][size]["accuracy"] for op, tier in OP_TIERS.items() if size in agg[tier]}
+        if len(p) < 3:
+            continue
+        print(f"  model size {size:.1e}   p_add={p['add']:.3f}  p_mult={p['mult']:.3f}  p_sub={p['sub']:.3f}")
+        print(f"    {'depth':>6} {'predicted':>10} {'measured':>10} {'residual':>10}   {'95% CI':>16}  ops")
         for tier in depth_tiers:
-            k = int(tier.split("_")[1])
             if size not in agg[tier]:
                 continue
             d = agg[tier][size]
-            pred = p_step ** k
+            ops = d.get("operations")
+            if not ops:
+                continue
+            pred = 1.0
+            for op in ops:
+                pred *= p.get(op, 0.0)
             resid = d["accuracy"] - pred
+            inside = d["ci_low"] <= pred <= d["ci_high"]
             ci = f"[{d['ci_low']:.2f},{d['ci_high']:.2f}]"
-            flag = ""
-            # is the prediction inside the measured CI?
-            if not (d["ci_low"] <= pred <= d["ci_high"]) and k > 1:
-                flag = "  <-- outside CI"
-            print(f"    {k:>6} {pred:>10.3f} {d['accuracy']:>10.3f} {resid:>+10.3f}   {ci:>16}{flag}")
-            rows.append({"size": size, "k": k, "predicted": pred,
-                         "measured": d["accuracy"], "residual": resid,
-                         "pred_in_ci": bool(d["ci_low"] <= pred <= d["ci_high"])})
+            flag = "" if inside else "  <-- outside CI"
+            k = int(tier.split("_")[1])
+            print(f"    {k:>6} {pred:>10.3f} {d['accuracy']:>10.3f} {resid:>+10.3f}   {ci:>16}{flag}  "
+                  + "*".join(o[0] for o in ops))
+            rows.append({"size": size, "k": k, "predicted": pred, "measured": d["accuracy"],
+                         "residual": resid, "pred_in_ci": inside})
         print()
 
-    multi = [r for r in rows if r["k"] > 1]
-    if multi:
-        mae = float(np.mean([abs(r["residual"]) for r in multi]))
-        inside = sum(r["pred_in_ci"] for r in multi)
-        print(f"  Summary over k>1 points: mean |residual| = {mae:.3f}; "
-              f"prediction inside 95% CI for {inside}/{len(multi)} points.")
-        print("  Interpretation: many points inside CI and small MAE => the depth")
-        print("  effect is compounding, not an extra mechanism. Systematically")
-        print("  positive residuals => the model does better than compounding")
-        print("  predicts, implying something beyond per-step probability.")
+    if not rows:
+        return None
+
+    mae = float(np.mean([abs(r["residual"]) for r in rows]))
+    inside = sum(r["pred_in_ci"] for r in rows)
+    neg = sum(1 for r in rows if r["residual"] < -0.10)
+    print(f"  Summary: mean |residual| = {mae:.3f}; prediction inside 95% CI for "
+          f"{inside}/{len(rows)} points; {neg}/{len(rows)} points fail more than "
+          f"0.10 BELOW prediction.")
+    print("  Small MAE + high CI coverage  => depth effect is compounding (mirage-consistent).")
+    print("  Large negative residuals      => failure is faster than compounding predicts;")
+    print("                                   chaining itself is breaking, not just per-step error.")
     return rows
 
 
