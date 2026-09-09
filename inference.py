@@ -118,15 +118,18 @@ def drop_existing(out_path, model_name, shots):
     return dropped
 
 
-def run_model(model_name, shots, overwrite, out_name=DEFAULT_OUT):
+def run_model(model_name, shots, overwrite, out_name=DEFAULT_OUT, fp16=False):
     import torch
     from transformers import AutoModelForCausalLM, AutoTokenizer
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"Loading {model_name} on {device} (shots={shots}) ...")
+    dtype = torch.float16 if (fp16 and device == "cuda") else torch.float32
+    if fp16 and device != "cuda":
+        print("  (--fp16 ignored: half precision needs a GPU)")
+    print(f"Loading {model_name} on {device} dtype={dtype} (shots={shots}) ...")
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForCausalLM.from_pretrained(model_name).to(device)
+    model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=dtype).to(device)
     model.eval()
 
     tasks = load_tasks()
@@ -151,6 +154,7 @@ def run_model(model_name, shots, overwrite, out_name=DEFAULT_OUT):
             f.write(json.dumps({
                 "model": model_name,
                 "shots": shots,
+                "dtype": str(dtype).replace("torch.", ""),
                 "task_id": t["id"],
                 "tier": t["tier"],
                 "axis": t["axis"],
@@ -181,13 +185,17 @@ def main():
                              "induction-head probe task-relevant.")
     parser.add_argument("--overwrite", action="store_true",
                         help="clear previous rows for this (model, shots) pair first")
+    parser.add_argument("--fp16", action="store_true",
+                        help="load in half precision (GPU only). Halves memory, so "
+                             "pythia-6.9b fits on a 16GB card. Log-probs shift slightly "
+                             "vs fp32, so use the SAME setting for every model in a sweep.")
     parser.add_argument("--out", default=DEFAULT_OUT,
                         help="output filename inside results/. Use a DIFFERENT name on "
                              "each machine (e.g. --out raw_outputs_friend.jsonl) so that "
                              "results committed from different machines never collide in git. "
                              "analysis.py reads every results/raw_outputs*.jsonl automatically.")
     args = parser.parse_args()
-    run_model(args.model, args.shots, args.overwrite, args.out)
+    run_model(args.model, args.shots, args.overwrite, args.out, args.fp16)
 
 
 if __name__ == "__main__":

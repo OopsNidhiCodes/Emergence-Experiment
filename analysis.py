@@ -303,6 +303,13 @@ def curve_analysis(agg):
 # ---------------- plots ----------------
 
 def make_plots(agg):
+    """
+    Four figures, written to results/plots/:
+      fig1_depth_accuracy   - accuracy vs scale, one line per step depth
+      fig2_compounding      - measured vs operation-aware predicted accuracy
+      fig3_logprob          - continuous metric vs scale (the mirage control)
+      fig4_surface_vs_depth - single-step difficulty vs step count
+    """
     try:
         import matplotlib
         matplotlib.use("Agg")
@@ -312,54 +319,112 @@ def make_plots(agg):
         return
 
     PLOTS_DIR.mkdir(parents=True, exist_ok=True)
-
-    # Plot 1: depth tiers, measured vs compounding prediction
     depth_tiers = sorted([t for t in agg if t.startswith("depth_")],
                          key=lambda t: int(t.split("_")[1]))
-    if "depth_1" in agg and len(depth_tiers) > 1:
-        plt.figure(figsize=(7, 4.5))
-        for tier in depth_tiers:
-            sizes = sorted(agg[tier].keys())
-            accs = [agg[tier][s]["accuracy"] for s in sizes]
-            los = [agg[tier][s]["accuracy"] - agg[tier][s]["ci_low"] for s in sizes]
-            his = [agg[tier][s]["ci_high"] - agg[tier][s]["accuracy"] for s in sizes]
-            plt.errorbar(sizes, accs, yerr=[los, his], fmt="o-", capsize=3, label=f"measured {tier}")
-        # predicted curves
-        sizes = sorted(agg["depth_1"].keys())
+
+    def errbars(tier):
+        sizes = sorted(agg[tier].keys())
+        acc = [agg[tier][s]["accuracy"] for s in sizes]
+        lo = [agg[tier][s]["accuracy"] - agg[tier][s]["ci_low"] for s in sizes]
+        hi = [agg[tier][s]["ci_high"] - agg[tier][s]["accuracy"] for s in sizes]
+        return sizes, acc, [lo, hi]
+
+    # ---- fig 1: accuracy vs scale by depth ----
+    if depth_tiers:
+        plt.figure(figsize=(6.5, 4.2))
         for tier in depth_tiers:
             k = int(tier.split("_")[1])
-            if k == 1:
-                continue
-            preds = [agg["depth_1"][s]["accuracy"] ** k for s in sizes]
-            plt.plot(sizes, preds, "--", alpha=0.5, label=f"predicted k={k}")
-        plt.xscale("log")
-        plt.ylim(-0.05, 1.05)
+            s, a, e = errbars(tier)
+            plt.errorbar(s, a, yerr=e, fmt="o-", capsize=3, label=f"k={k}")
+        plt.xscale("log"); plt.ylim(-0.05, 1.05)
         plt.xlabel("Model size (parameters)")
         plt.ylabel("Exact-match accuracy")
-        plt.title("Measured vs. compounding-predicted accuracy by step depth")
-        plt.grid(alpha=0.3)
-        plt.legend(fontsize=7, ncol=2)
-        plt.savefig(PLOTS_DIR / "compounding_test.png", dpi=150, bbox_inches="tight")
+        plt.title("Accuracy vs. scale by step depth (95% Wilson CIs)")
+        plt.grid(alpha=0.3); plt.legend(title="steps", fontsize=8)
+        plt.savefig(PLOTS_DIR / "fig1_depth_accuracy.png", dpi=200, bbox_inches="tight")
         plt.close()
 
-    # Plot 2: accuracy vs log-probability per tier
-    plt.figure(figsize=(7, 4.5))
+    # ---- fig 2: measured vs operation-aware prediction ----
+    OP_TIERS = {"add": "depth_1", "mult": "mult_single", "sub": "sub_single"}
+    if all(t in agg for t in OP_TIERS.values()):
+        sizes = sorted(agg["depth_1"].keys())
+        plt.figure(figsize=(6.5, 4.2))
+        for tier in depth_tiers:
+            if tier == "depth_1":
+                continue
+            k = int(tier.split("_")[1])
+            xs, meas, pred = [], [], []
+            for s in sizes:
+                if s not in agg[tier]:
+                    continue
+                ops = agg[tier][s].get("operations")
+                if not ops:
+                    continue
+                p = 1.0
+                ok = True
+                for op in ops:
+                    tier_for_op = OP_TIERS[op]
+                    if s not in agg.get(tier_for_op, {}):
+                        ok = False; break
+                    p *= agg[tier_for_op][s]["accuracy"]
+                if not ok:
+                    continue
+                xs.append(s); meas.append(agg[tier][s]["accuracy"]); pred.append(p)
+            if xs:
+                line, = plt.plot(xs, meas, "o-", label=f"k={k} measured")
+                plt.plot(xs, pred, "--", color=line.get_color(), alpha=0.6,
+                         label=f"k={k} predicted")
+        plt.xscale("log"); plt.ylim(-0.05, 1.05)
+        plt.xlabel("Model size (parameters)")
+        plt.ylabel("Exact-match accuracy")
+        plt.title("Measured vs. operation-aware compounding prediction")
+        plt.grid(alpha=0.3); plt.legend(fontsize=7, ncol=2)
+        plt.savefig(PLOTS_DIR / "fig2_compounding.png", dpi=200, bbox_inches="tight")
+        plt.close()
+
+    # ---- fig 3: log-probability ----
+    plt.figure(figsize=(6.5, 4.2))
+    plotted = 0
     for tier in sorted(agg):
         sizes = sorted(agg[tier].keys())
         lps = [agg[tier][s]["mean_log_prob"] for s in sizes]
         if any(v is None for v in lps):
             continue
-        plt.plot(sizes, lps, "o-", label=tier)
-    plt.xscale("log")
-    plt.xlabel("Model size (parameters)")
-    plt.ylabel("Mean log-probability of correct answer")
-    plt.title("Continuous metric vs. model size")
-    plt.grid(alpha=0.3)
-    plt.legend(fontsize=7, ncol=2)
-    plt.savefig(PLOTS_DIR / "log_prob_curves.png", dpi=150, bbox_inches="tight")
+        plt.plot(sizes, lps, "o-", label=tier); plotted += 1
+    if plotted:
+        plt.xscale("log")
+        plt.xlabel("Model size (parameters)")
+        plt.ylabel("Mean log-probability of correct answer")
+        plt.title("Continuous metric vs. scale")
+        plt.grid(alpha=0.3); plt.legend(fontsize=7, ncol=2)
+        plt.savefig(PLOTS_DIR / "fig3_logprob.png", dpi=200, bbox_inches="tight")
     plt.close()
 
+    # ---- fig 4: surface difficulty vs step depth ----
+    surface = [t for t in ["single_digit", "two_digit", "three_digit", "carrying",
+                           "mult_single", "sub_single"] if t in agg]
+    if surface and depth_tiers:
+        fig, axes = plt.subplots(1, 2, figsize=(11, 4.2), sharey=True)
+        for tier in surface:
+            s, a, e = errbars(tier)
+            axes[0].errorbar(s, a, yerr=e, fmt="o-", capsize=3, label=tier)
+        axes[0].set_title("Single-step tiers (k=1, varying surface difficulty)")
+        for tier in depth_tiers:
+            k = int(tier.split("_")[1])
+            s, a, e = errbars(tier)
+            axes[1].errorbar(s, a, yerr=e, fmt="o-", capsize=3, label=f"k={k}")
+        axes[1].set_title("Depth tiers (varying step count)")
+        for ax in axes:
+            ax.set_xscale("log"); ax.set_ylim(-0.05, 1.05)
+            ax.set_xlabel("Model size (parameters)")
+            ax.grid(alpha=0.3); ax.legend(fontsize=7)
+        axes[0].set_ylabel("Exact-match accuracy")
+        plt.savefig(PLOTS_DIR / "fig4_surface_vs_depth.png", dpi=200, bbox_inches="tight")
+        plt.close()
+
     print(f"\nPlots written to {PLOTS_DIR}")
+    for p in sorted(PLOTS_DIR.glob("*.png")):
+        print(f"  {p.name}")
 
 
 # ---------------- main ----------------
