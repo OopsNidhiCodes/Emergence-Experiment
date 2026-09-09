@@ -157,10 +157,12 @@ def main():
         print(f"  {f.name}  ({n} rows)")
     print()
 
-    expr_by_id = {}
+    expr_by_id, ops_by_id = {}, {}
     if TASKS_PATH.exists():
         for t in json.loads(TASKS_PATH.read_text()):
             expr_by_id[t["id"]] = t["expression"]
+            if t.get("operations"):
+                ops_by_id[t["id"]] = t["operations"]
 
     records = []
     for f in files:
@@ -181,6 +183,11 @@ def main():
     for r in records:
         expr = expr_by_id.get(r["task_id"], "")
         r["error_type"] = classify(r["true_answer"], r["predicted_answer"], expr)
+        # Attach the operation sequence from tasks.json. inference.py does not
+        # write this field, so joining it here lets the operation-aware
+        # compounding test run without re-running inference.
+        if r["task_id"] in ops_by_id:
+            r["operations"] = ops_by_id[r["task_id"]]
 
     SCORED_PATH.write_text("\n".join(json.dumps(r) for r in records) + "\n")
 

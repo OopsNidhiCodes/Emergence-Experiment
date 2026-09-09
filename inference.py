@@ -159,6 +159,7 @@ def run_model(model_name, shots, overwrite, out_name=DEFAULT_OUT, fp16=False):
                 "tier": t["tier"],
                 "axis": t["axis"],
                 "num_steps": t["num_steps"],
+                "operations": t.get("operations"),
                 "held_out": t["held_out"],
                 "prompt": prompt,
                 "true_answer": t["answer"],
