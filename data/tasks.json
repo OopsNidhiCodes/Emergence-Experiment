@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "single_digit_00",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "2 + 1",
+    "answer": "3",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_01",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "5 + 4",
+    "answer": "9",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_02",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "4 + 3",
+    "answer": "7",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_03",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "2 + 9",
+    "answer": "11",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_04",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "2 + 7",
+    "answer": "9",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_05",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "1 + 1",
+    "answer": "2",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_06",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "2 + 4",
+    "answer": "6",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_07",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "4 + 9",
+    "answer": "13",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_08",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "1 + 9",
+    "answer": "10",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_09",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "4 + 9",
+    "answer": "13",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_10",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "7 + 4",
+    "answer": "11",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_11",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "8 + 5",
+    "answer": "13",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_12",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "1 + 3",
+    "answer": "4",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_13",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "7 + 6",
+    "answer": "13",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_14",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "5 + 3",
+    "answer": "8",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_15",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "4 + 6",
+    "answer": "10",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_16",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "2 + 2",
+    "answer": "4",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "single_digit_17",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "7 + 2",
+    "answer": "9",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "single_digit_18",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "6 + 6",
+    "answer": "12",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "single_digit_19",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "5 + 1",
+    "answer": "6",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "two_digit_00",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "68 + 78",
+    "answer": "146",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_01",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "25 + 58",
+    "answer": "83",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_02",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "20 + 80",
+    "answer": "100",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_03",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "47 + 90",
+    "answer": "137",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_04",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "89 + 56",
+    "answer": "145",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_05",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "83 + 34",
+    "answer": "117",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_06",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "18 + 15",
+    "answer": "33",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_07",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "94 + 39",
+    "answer": "133",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_08",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "47 + 20",
+    "answer": "67",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_09",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "39 + 22",
+    "answer": "61",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_10",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "58 + 45",
+    "answer": "103",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_11",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "68 + 91",
+    "answer": "159",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_12",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "56 + 30",
+    "answer": "86",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_13",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "57 + 55",
+    "answer": "112",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_14",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "36 + 95",
+    "answer": "131",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_15",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "44 + 99",
+    "answer": "143",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_16",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "97 + 92",
+    "answer": "189",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "two_digit_17",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "19 + 87",
+    "answer": "106",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "two_digit_18",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "91 + 31",
+    "answer": "122",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "two_digit_19",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "78 + 41",
+    "answer": "119",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "three_digit_00",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "267 + 573",
+    "answer": "840",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_01",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "488 + 376",
+    "answer": "864",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_02",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "755 + 804",
+    "answer": "1559",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_03",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "670 + 324",
+    "answer": "994",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_04",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "801 + 432",
+    "answer": "1233",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_05",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "963 + 886",
+    "answer": "1849",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_06",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "894 + 157",
+    "answer": "1051",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_07",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "334 + 941",
+    "answer": "1275",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_08",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "132 + 924",
+    "answer": "1056",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_09",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "423 + 510",
+    "answer": "933",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_10",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "374 + 167",
+    "answer": "541",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_11",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "316 + 680",
+    "answer": "996",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_12",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "997 + 835",
+    "answer": "1832",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_13",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "422 + 317",
+    "answer": "739",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_14",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "771 + 611",
+    "answer": "1382",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_15",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "505 + 758",
+    "answer": "1263",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_16",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "569 + 246",
+    "answer": "815",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "three_digit_17",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "371 + 242",
+    "answer": "613",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "three_digit_18",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "352 + 862",
+    "answer": "1214",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "three_digit_19",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "674 + 651",
+    "answer": "1325",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "carrying_00",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "38 + 27",
+    "answer": "65",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_01",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "24 + 29",
+    "answer": "53",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_02",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "97 + 64",
+    "answer": "161",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_03",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "86 + 18",
+    "answer": "104",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_04",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "59 + 58",
+    "answer": "117",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_05",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "86 + 69",
+    "answer": "155",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_06",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "97 + 24",
+    "answer": "121",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_07",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "97 + 78",
+    "answer": "175",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_08",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "47 + 65",
+    "answer": "112",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_09",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "87 + 35",
+    "answer": "122",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_10",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "29 + 57",
+    "answer": "86",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_11",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "24 + 56",
+    "answer": "80",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_12",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "18 + 78",
+    "answer": "96",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_13",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "26 + 26",
+    "answer": "52",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_14",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "43 + 77",
+    "answer": "120",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_15",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "87 + 64",
+    "answer": "151",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_16",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "37 + 79",
+    "answer": "116",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "carrying_17",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "98 + 35",
+    "answer": "133",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "carrying_18",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "49 + 61",
+    "answer": "110",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "carrying_19",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "57 + 66",
+    "answer": "123",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "depth_1_00",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "18 + 16",
+    "answer": "34",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "depth_1_01",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "12 + 2",
+    "answer": "14",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "depth_1_02",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "4 + 3",
+    "answer": "7",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "depth_1_03",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "4 + 18",
+    "answer": "22",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "depth_1_04",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "19 + 6",
+    "answer": "25",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "depth_1_05",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "8 + 5",
+    "answer": "13",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "depth_1_06",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "15 + 16",
+    "answer": "31",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "depth_1_07",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "12 + 5",
+    "answer": "17",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "depth_1_08",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "6 + 15",
+    "answer": "21",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "depth_1_09",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "4 + 16",
+    "answer": "20",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "depth_1_10",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "4 + 9",
+    "answer": "13",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "depth_1_11",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "8 + 14",
+    "answer": "22",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "depth_1_12",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "14 + 10",
+    "answer": "24",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "depth_1_13",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "6 + 8",
+    "answer": "14",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "depth_1_14",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "12 + 3",
+    "answer": "15",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "depth_1_15",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "3 + 18",
+    "answer": "21",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "depth_1_16",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "9 + 14",
+    "answer": "23",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "depth_1_17",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "4 + 15",
+    "answer": "19",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "depth_1_18",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "9 + 10",
+    "answer": "19",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "depth_1_19",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "12 + 4",
+    "answer": "16",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "depth_2_00",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(4 + 19) * 5",
+    "answer": "115",
+    "num_steps": 2,
+    "held_out": false
+  },
+  {
+    "id": "depth_2_01",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(13 + 4) * 5",
+    "answer": "85",
+    "num_steps": 2,
+    "held_out": false
+  },
+  {
+    "id": "depth_2_02",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(16 + 19) * 6",
+    "answer": "210",
+    "num_steps": 2,
+    "held_out": false
+  },
+  {
+    "id": "depth_2_03",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(5 + 6) * 6",
+    "answer": "66",
+    "num_steps": 2,
+    "held_out": false
+  },
+  {
+    "id": "depth_2_04",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(10 + 11) * 5",
+    "answer": "105",
+    "num_steps": 2,
+    "held_out": false
+  },
+  {
+    "id": "depth_2_05",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(18 + 17) * 6",
+    "answer": "210",
+    "num_steps": 2,
+    "held_out": false
+  },
+  {
+    "id": "depth_2_06",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(10 + 3) * 2",
+    "answer": "26",
+    "num_steps": 2,
+    "held_out": false
+  },
+  {
+    "id": "depth_2_07",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(7 + 16) * 8",
+    "answer": "184",
+    "num_steps": 2,
+    "held_out": false
+  },
+  {
+    "id": "depth_2_08",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(4 + 6) * 2",
+    "answer": "20",
+    "num_steps": 2,
+    "held_out": false
+  },
+  {
+    "id": "depth_2_09",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(15 + 6) * 2",
+    "answer": "42",
+    "num_steps": 2,
+    "held_out": false
+  },
+  {
+    "id": "depth_2_10",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(13 + 8) * 5",
+    "answer": "105",
+    "num_steps": 2,
+    "held_out": false
+  },
+  {
+    "id": "depth_2_11",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(6 + 9) * 4",
+    "answer": "60",
+    "num_steps": 2,
+    "held_out": false
+  },
+  {
+    "id": "depth_2_12",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(7 + 12) * 8",
+    "answer": "152",
+    "num_steps": 2,
+    "held_out": false
+  },
+  {
+    "id": "depth_2_13",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(5 + 14) * 2",
+    "answer": "38",
+    "num_steps": 2,
+    "held_out": false
+  },
+  {
+    "id": "depth_2_14",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(16 + 13) * 6",
+    "answer": "174",
+    "num_steps": 2,
+    "held_out": false
+  },
+  {
+    "id": "depth_2_15",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(8 + 14) * 7",
+    "answer": "154",
+    "num_steps": 2,
+    "held_out": false
+  },
+  {
+    "id": "depth_2_16",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(13 + 18) * 8",
+    "answer": "248",
+    "num_steps": 2,
+    "held_out": true
+  },
+  {
+    "id": "depth_2_17",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(5 + 10) * 4",
+    "answer": "60",
+    "num_steps": 2,
+    "held_out": true
+  },
+  {
+    "id": "depth_2_18",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(5 + 15) * 7",
+    "answer": "140",
+    "num_steps": 2,
+    "held_out": true
+  },
+  {
+    "id": "depth_2_19",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(14 + 20) * 5",
+    "answer": "170",
+    "num_steps": 2,
+    "held_out": true
+  },
+  {
+    "id": "depth_3_00",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((2 + 18) * 5) + 13",
+    "answer": "113",
+    "num_steps": 3,
+    "held_out": false
+  },
+  {
+    "id": "depth_3_01",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((12 + 12) * 3) + 11",
+    "answer": "83",
+    "num_steps": 3,
+    "held_out": false
+  },
+  {
+    "id": "depth_3_02",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((15 + 12) * 8) + 11",
+    "answer": "227",
+    "num_steps": 3,
+    "held_out": false
+  },
+  {
+    "id": "depth_3_03",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((8 + 15) * 8) + 7",
+    "answer": "191",
+    "num_steps": 3,
+    "held_out": false
+  },
+  {
+    "id": "depth_3_04",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((14 + 19) * 2) + 11",
+    "answer": "77",
+    "num_steps": 3,
+    "held_out": false
+  },
+  {
+    "id": "depth_3_05",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((15 + 20) * 7) + 16",
+    "answer": "261",
+    "num_steps": 3,
+    "held_out": false
+  },
+  {
+    "id": "depth_3_06",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((8 + 18) * 9) + 7",
+    "answer": "241",
+    "num_steps": 3,
+    "held_out": false
+  },
+  {
+    "id": "depth_3_07",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((18 + 12) * 3) + 9",
+    "answer": "99",
+    "num_steps": 3,
+    "held_out": false
+  },
+  {
+    "id": "depth_3_08",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((8 + 6) * 2) + 3",
+    "answer": "31",
+    "num_steps": 3,
+    "held_out": false
+  },
+  {
+    "id": "depth_3_09",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((4 + 16) * 8) + 20",
+    "answer": "180",
+    "num_steps": 3,
+    "held_out": false
+  },
+  {
+    "id": "depth_3_10",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((17 + 14) * 5) + 6",
+    "answer": "161",
+    "num_steps": 3,
+    "held_out": false
+  },
+  {
+    "id": "depth_3_11",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((15 + 9) * 4) + 18",
+    "answer": "114",
+    "num_steps": 3,
+    "held_out": false
+  },
+  {
+    "id": "depth_3_12",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((19 + 9) * 3) + 16",
+    "answer": "100",
+    "num_steps": 3,
+    "held_out": false
+  },
+  {
+    "id": "depth_3_13",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((18 + 19) * 7) + 16",
+    "answer": "275",
+    "num_steps": 3,
+    "held_out": false
+  },
+  {
+    "id": "depth_3_14",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((19 + 16) * 4) + 17",
+    "answer": "157",
+    "num_steps": 3,
+    "held_out": false
+  },
+  {
+    "id": "depth_3_15",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((9 + 10) * 9) + 9",
+    "answer": "180",
+    "num_steps": 3,
+    "held_out": false
+  },
+  {
+    "id": "depth_3_16",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((4 + 11) * 5) + 10",
+    "answer": "85",
+    "num_steps": 3,
+    "held_out": true
+  },
+  {
+    "id": "depth_3_17",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((19 + 4) * 4) + 6",
+    "answer": "98",
+    "num_steps": 3,
+    "held_out": true
+  },
+  {
+    "id": "depth_3_18",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((6 + 8) * 3) + 15",
+    "answer": "57",
+    "num_steps": 3,
+    "held_out": true
+  },
+  {
+    "id": "depth_3_19",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((19 + 16) * 8) + 3",
+    "answer": "283",
+    "num_steps": 3,
+    "held_out": true
+  },
+  {
+    "id": "depth_4_00",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((14 + 20) * 2) + 20) - 14",
+    "answer": "74",
+    "num_steps": 4,
+    "held_out": false
+  },
+  {
+    "id": "depth_4_01",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((2 + 13) * 6) + 14) - 15",
+    "answer": "89",
+    "num_steps": 4,
+    "held_out": false
+  },
+  {
+    "id": "depth_4_02",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((17 + 9) * 6) + 15) - 17",
+    "answer": "154",
+    "num_steps": 4,
+    "held_out": false
+  },
+  {
+    "id": "depth_4_03",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((14 + 12) * 8) + 7) - 16",
+    "answer": "199",
+    "num_steps": 4,
+    "held_out": false
+  },
+  {
+    "id": "depth_4_04",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((19 + 2) * 8) + 20) - 20",
+    "answer": "168",
+    "num_steps": 4,
+    "held_out": false
+  },
+  {
+    "id": "depth_4_05",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((4 + 15) * 4) + 16) - 7",
+    "answer": "85",
+    "num_steps": 4,
+    "held_out": false
+  },
+  {
+    "id": "depth_4_06",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((10 + 14) * 7) + 8) - 16",
+    "answer": "160",
+    "num_steps": 4,
+    "held_out": false
+  },
+  {
+    "id": "depth_4_07",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((12 + 14) * 6) + 15) - 10",
+    "answer": "161",
+    "num_steps": 4,
+    "held_out": false
+  },
+  {
+    "id": "depth_4_08",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((17 + 2) * 2) + 13) - 9",
+    "answer": "42",
+    "num_steps": 4,
+    "held_out": false
+  },
+  {
+    "id": "depth_4_09",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((3 + 2) * 5) + 8) - 2",
+    "answer": "31",
+    "num_steps": 4,
+    "held_out": false
+  },
+  {
+    "id": "depth_4_10",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((9 + 6) * 9) + 5) - 20",
+    "answer": "120",
+    "num_steps": 4,
+    "held_out": false
+  },
+  {
+    "id": "depth_4_11",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((16 + 10) * 7) + 7) - 5",
+    "answer": "184",
+    "num_steps": 4,
+    "held_out": false
+  },
+  {
+    "id": "depth_4_12",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((11 + 5) * 2) + 11) - 20",
+    "answer": "23",
+    "num_steps": 4,
+    "held_out": false
+  },
+  {
+    "id": "depth_4_13",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((14 + 8) * 3) + 20) - 9",
+    "answer": "77",
+    "num_steps": 4,
+    "held_out": false
+  },
+  {
+    "id": "depth_4_14",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((11 + 5) * 2) + 13) - 19",
+    "answer": "26",
+    "num_steps": 4,
+    "held_out": false
+  },
+  {
+    "id": "depth_4_15",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((13 + 4) * 7) + 2) - 15",
+    "answer": "106",
+    "num_steps": 4,
+    "held_out": false
+  },
+  {
+    "id": "depth_4_16",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((5 + 15) * 7) + 16) - 6",
+    "answer": "150",
+    "num_steps": 4,
+    "held_out": true
+  },
+  {
+    "id": "depth_4_17",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((7 + 18) * 6) + 19) - 17",
+    "answer": "152",
+    "num_steps": 4,
+    "held_out": true
+  },
+  {
+    "id": "depth_4_18",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((15 + 20) * 6) + 12) - 9",
+    "answer": "213",
+    "num_steps": 4,
+    "held_out": true
+  },
+  {
+    "id": "depth_4_19",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((10 + 16) * 5) + 16) - 20",
+    "answer": "126",
+    "num_steps": 4,
+    "held_out": true
+  },
+  {
+    "id": "depth_5_00",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((12 + 2) * 9) + 12) - 7) * 5",
+    "answer": "655",
+    "num_steps": 5,
+    "held_out": false
+  },
+  {
+    "id": "depth_5_01",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((8 + 13) * 6) + 12) - 10) * 4",
+    "answer": "512",
+    "num_steps": 5,
+    "held_out": false
+  },
+  {
+    "id": "depth_5_02",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((19 + 2) * 5) + 4) - 9) * 5",
+    "answer": "500",
+    "num_steps": 5,
+    "held_out": false
+  },
+  {
+    "id": "depth_5_03",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((17 + 19) * 5) + 17) - 17) * 5",
+    "answer": "900",
+    "num_steps": 5,
+    "held_out": false
+  },
+  {
+    "id": "depth_5_04",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((2 + 4) * 6) + 9) - 14) * 3",
+    "answer": "93",
+    "num_steps": 5,
+    "held_out": false
+  },
+  {
+    "id": "depth_5_05",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((11 + 20) * 7) + 17) - 19) * 4",
+    "answer": "860",
+    "num_steps": 5,
+    "held_out": false
+  },
+  {
+    "id": "depth_5_06",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((15 + 19) * 7) + 13) - 16) * 4",
+    "answer": "940",
+    "num_steps": 5,
+    "held_out": false
+  },
+  {
+    "id": "depth_5_07",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((11 + 10) * 5) + 5) - 8) * 4",
+    "answer": "408",
+    "num_steps": 5,
+    "held_out": false
+  },
+  {
+    "id": "depth_5_08",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((5 + 19) * 4) + 8) - 8) * 5",
+    "answer": "480",
+    "num_steps": 5,
+    "held_out": false
+  },
+  {
+    "id": "depth_5_09",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((10 + 20) * 6) + 5) - 8) * 4",
+    "answer": "708",
+    "num_steps": 5,
+    "held_out": false
+  },
+  {
+    "id": "depth_5_10",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((9 + 13) * 4) + 11) - 2) * 3",
+    "answer": "291",
+    "num_steps": 5,
+    "held_out": false
+  },
+  {
+    "id": "depth_5_11",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((10 + 3) * 2) + 19) - 11) * 3",
+    "answer": "102",
+    "num_steps": 5,
+    "held_out": false
+  },
+  {
+    "id": "depth_5_12",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((17 + 5) * 2) + 20) - 11) * 5",
+    "answer": "265",
+    "num_steps": 5,
+    "held_out": false
+  },
+  {
+    "id": "depth_5_13",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((17 + 16) * 7) + 7) - 3) * 4",
+    "answer": "940",
+    "num_steps": 5,
+    "held_out": false
+  },
+  {
+    "id": "depth_5_14",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((17 + 5) * 3) + 14) - 17) * 2",
+    "answer": "126",
+    "num_steps": 5,
+    "held_out": false
+  },
+  {
+    "id": "depth_5_15",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((20 + 3) * 4) + 6) - 20) * 4",
+    "answer": "312",
+    "num_steps": 5,
+    "held_out": false
+  },
+  {
+    "id": "depth_5_16",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((4 + 9) * 3) + 19) - 15) * 3",
+    "answer": "129",
+    "num_steps": 5,
+    "held_out": true
+  },
+  {
+    "id": "depth_5_17",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((18 + 14) * 9) + 16) - 11) * 5",
+    "answer": "1465",
+    "num_steps": 5,
+    "held_out": true
+  },
+  {
+    "id": "depth_5_18",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((11 + 20) * 2) + 5) - 8) * 3",
+    "answer": "177",
+    "num_steps": 5,
+    "held_out": true
+  },
+  {
+    "id": "depth_5_19",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((10 + 4) * 4) + 9) - 7) * 2",
+    "answer": "116",
+    "num_steps": 5,
+    "held_out": true
+  }
+]
