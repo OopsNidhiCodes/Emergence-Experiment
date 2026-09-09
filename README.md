@@ -53,9 +53,8 @@ regenerating it, so all models see identical problems.
 
 | Model | RAM | Machine |
 |---|---|---|
-| pythia-70m / 160m / 410m | <2 GB | your laptop |
-| pythia-1b | ~5 GB | laptop or friend's |
-| pythia-1.4b | ~7 GB | friend's machine |
+| pythia-70m / 160m / 410m | <2 GB | own laptop |
+| pythia-1b / 1.4b | ~5 GB - 7 GB | require better RAM for faster processing |
 | pythia-2.8b | ~14 GB | university system |
 
 Run **both** prompt conditions for every model - the zero-shot vs few-shot
