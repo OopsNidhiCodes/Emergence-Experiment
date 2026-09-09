@@ -176,9 +176,21 @@ def main():
         seen[(r["model"], r.get("shots"), r["task_id"])] += 1
     dupes = sum(1 for v in seen.values() if v > 1)
     if dupes:
-        print(f"WARNING: {dupes} (model, shots, task) combinations appear more than once.")
-        print("         Re-running the same model appends duplicate rows. Use")
-        print("         'python inference.py --model ... --overwrite' to avoid this.\n")
+        print("=" * 70)
+        print(f"STOPPING: {dupes} (model, shots, task) combinations appear more than once.")
+        print("=" * 70)
+        print("This usually means results from DIFFERENT benchmark versions are mixed")
+        print("in results/. Task IDs are reused across benchmark versions, so old rows")
+        print("would be scored against the CURRENT tasks.json - i.e. against the wrong")
+        print("expressions - and accuracies would be averaged over incompatible runs.")
+        print()
+        print("Files read:")
+        for f in files:
+            print(f"  {f.name}")
+        print()
+        print("Delete the stale file(s), keep only the current benchmark's results,")
+        print("and re-run. Nothing has been written.")
+        raise SystemExit(1)
 
     for r in records:
         expr = expr_by_id.get(r["task_id"], "")

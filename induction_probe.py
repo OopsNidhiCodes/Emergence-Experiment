@@ -50,8 +50,13 @@ def stack_attentions(model, input_ids):
     return torch.stack([a[0].float().cpu() for a in out.attentions], dim=0)
 
 
-def generic_induction(model, device, seq_len=40, vocab_lo=100, vocab_hi=None):
-    vocab_hi = vocab_hi or (model.config.vocab_size - 100)
+def generic_induction(model, tokenizer, device, seq_len=40, vocab_lo=100, vocab_hi=None):
+    # Pythia's config.vocab_size (50304) is PADDED beyond the tokenizer's real
+    # vocabulary (~50277). Those extra embedding rows were never trained, and
+    # sampling them produced NaN attention in fp16, which made scores.max()
+    # NaN and crashed the summary. Clamp to the tokenizer's actual size.
+    real_vocab = min(len(tokenizer), model.config.vocab_size)
+    vocab_hi = vocab_hi or (real_vocab - 100)
     half = torch.randint(vocab_lo, vocab_hi, (1, seq_len), device=device)
     seq = torch.cat([half, half], dim=1)                    # [X, X]
     attn = stack_attentions(model, seq)                     # (L, H, S, S)
@@ -102,19 +107,27 @@ def probe(model_name, threshold, fp16):
     ).to(device)
     model.eval()
 
-    gen = generic_induction(model, device)
+    gen = generic_induction(model, tokenizer, device)
     fmt = format_induction(model, tokenizer, device)
 
     def summarise(scores, prefix):
         if scores is None:
             return {}
-        best = (scores == scores.max()).nonzero()[0].tolist()
+        n_nan = int(torch.isnan(scores).sum())
+        if n_nan:
+            print(f"  WARNING: {n_nan} NaN values in {prefix} scores - treated as 0. "
+                  f"If this is most of the matrix, re-run without --fp16.")
+            scores = torch.nan_to_num(scores, nan=0.0)
+        # argmax is NaN-safe once cleaned, unlike (scores == scores.max())
+        flat = int(torch.argmax(scores))
+        best = [flat // scores.shape[1], flat % scores.shape[1]]
         return {
             f"{prefix}_max_score": float(scores.max()),
             f"{prefix}_best_layer_head": [int(x) for x in best],
             f"{prefix}_n_heads_above_threshold": int((scores > threshold).sum()),
             f"{prefix}_has_induction_head": bool((scores > threshold).sum() > 0),
             f"{prefix}_all_scores": scores.tolist(),
+            f"{prefix}_n_nan": n_nan,
         }
 
     result = {"model": model_name, "threshold": threshold,
