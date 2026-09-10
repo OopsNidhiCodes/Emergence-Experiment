@@ -164,6 +164,28 @@ def make_depth(k, n):
         # build an operation-aware compounding prediction instead of p^k.
         ops = ["add", "mult", "add", "sub", "mult"][:k]
 
+        # Intermediate results in evaluation order, used to build the
+        # scratchpad prompt (see format_prompt(..., scratchpad=True)).
+        # For "((2 + 18) * 5) + 13" this is [20, 100, 113].
+        steps = []
+        acc = a + b
+        steps.append(("{} + {}".format(a, b), acc))
+        if k >= 2:
+            acc = acc * c
+            steps.append(("{} * {}".format(steps[-1][1], c), acc))
+        if k >= 3:
+            prev = acc
+            acc = acc + d
+            steps.append(("{} + {}".format(prev, d), acc))
+        if k >= 4:
+            prev = acc
+            acc = acc - e
+            steps.append(("{} - {}".format(prev, e), acc))
+        if k >= 5:
+            prev = acc
+            acc = acc * f
+            steps.append(("{} * {}".format(prev, f), acc))
+
         items.append({
             "id": f"depth_{k}_{i:02d}",
             "tier": f"depth_{k}",
@@ -172,6 +194,7 @@ def make_depth(k, n):
             "answer": str(eval(expr)),  # safe: expression built here, not user input
             "num_steps": k,
             "operations": ops,
+            "steps": [[expr_i, str(val)] for expr_i, val in steps],
         })
     return items
 
@@ -193,6 +216,42 @@ FEWSHOT_EXEMPLARS = [
     ("21 + 69", "90"),
     ("(19 + 32) * 3", "153"),
 ]
+
+
+SCRATCHPAD_EXEMPLAR = (
+    "(19 + 32) * 3. First, 19 + 32 = 51. Then 51 * 3 = 153"
+)
+
+
+def format_scratchpad_prompt(task):
+    """
+    Supplies every intermediate result EXCEPT the last, so the model only
+    has to perform the final single operation:
+
+        (4 + 19) * 5. First, 4 + 19 = 23. Then 23 * 5 =
+
+    Purpose: the main experiment shows composition failing while each
+    individual operation is at ceiling. The dominant error is
+    `dropped_operand` -- the outer operation is applied to one addend and
+    the addition result is never bound in. That points at a failure to
+    BIND intermediate results rather than to compute them.
+
+    This condition externalises the binding. If accuracy recovers, the
+    arithmetic was available all along and the deficit is in carrying an
+    intermediate value forward internally. If it does not recover, the
+    failure is deeper than composition. Both outcomes are informative.
+    """
+    steps = task.get("steps") or []
+    if len(steps) < 2:
+        return None  # k=1 items have nothing to scaffold
+
+    parts = [f"{task['expression'].strip()}."]
+    for i, (step_expr, step_val) in enumerate(steps[:-1]):
+        lead = "First," if i == 0 else "Then"
+        parts.append(f"{lead} {step_expr} = {step_val}.")
+    final_expr = steps[-1][0]
+    parts.append(f"Then {final_expr} =")
+    return f"{SCRATCHPAD_EXEMPLAR}\n" + " ".join(parts)
 
 
 def format_prompt(expression, shots=0):

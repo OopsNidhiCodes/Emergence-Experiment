@@ -173,7 +173,7 @@ def main():
     # warn about duplicate rows (same model+shots+task run twice)
     seen = defaultdict(int)
     for r in records:
-        seen[(r["model"], r.get("shots"), r["task_id"])] += 1
+        seen[(r["model"], r.get("shots"), bool(r.get("scratchpad")), r["task_id"])] += 1
     dupes = sum(1 for v in seen.values() if v > 1)
     if dupes:
         print("=" * 70)

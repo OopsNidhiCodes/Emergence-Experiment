@@ -25,7 +25,7 @@ import json
 import argparse
 from pathlib import Path
 
-from benchmark import format_prompt
+from benchmark import format_prompt, format_scratchpad_prompt
 
 DATA_PATH = Path(__file__).parent / "data" / "tasks.json"
 RESULTS_DIR = Path(__file__).parent / "results"
@@ -101,7 +101,7 @@ def extract_answer(text):
     return match.group(0) if match else None
 
 
-def drop_existing(out_path, model_name, shots):
+def drop_existing(out_path, model_name, shots, scratchpad=False):
     """Remove previously-written rows for this (model, shots) pair."""
     if not out_path.exists():
         return 0
@@ -110,7 +110,8 @@ def drop_existing(out_path, model_name, shots):
         if not line.strip():
             continue
         r = json.loads(line)
-        if r.get("model") == model_name and r.get("shots") == shots:
+        if (r.get("model") == model_name and r.get("shots") == shots
+                and bool(r.get("scratchpad")) == bool(scratchpad)):
             dropped += 1
         else:
             kept.append(line)
@@ -118,7 +119,8 @@ def drop_existing(out_path, model_name, shots):
     return dropped
 
 
-def run_model(model_name, shots, overwrite, out_name=DEFAULT_OUT, fp16=False):
+def run_model(model_name, shots, overwrite, out_name=DEFAULT_OUT, fp16=False,
+              scratchpad=False):
     import torch
     from transformers import AutoModelForCausalLM, AutoTokenizer
 
@@ -137,14 +139,21 @@ def run_model(model_name, shots, overwrite, out_name=DEFAULT_OUT, fp16=False):
     out_path = RESULTS_DIR / out_name
 
     if overwrite:
-        n = drop_existing(out_path, model_name, shots)
+        n = drop_existing(out_path, model_name, shots, scratchpad)
         if n:
             print(f"  removed {n} previous rows for this model/shots pair")
 
     n_correct = 0
     with open(out_path, "a") as f:
+        n_run = 0
         for idx, t in enumerate(tasks, 1):
-            prompt = format_prompt(t["expression"], shots=shots)
+            if scratchpad:
+                prompt = format_scratchpad_prompt(t)
+                if prompt is None:
+                    continue    # single-step items have nothing to scaffold
+            else:
+                prompt = format_prompt(t["expression"], shots=shots)
+            n_run += 1
             generated = generate_answer(model, tokenizer, prompt, device)
             predicted = extract_answer(generated)
             exact_match = int(predicted == t["answer"]) if predicted is not None else 0
@@ -154,6 +163,7 @@ def run_model(model_name, shots, overwrite, out_name=DEFAULT_OUT, fp16=False):
             f.write(json.dumps({
                 "model": model_name,
                 "shots": shots,
+                "scratchpad": scratchpad,
                 "dtype": str(dtype).replace("torch.", ""),
                 "task_id": t["id"],
                 "tier": t["tier"],
@@ -169,10 +179,12 @@ def run_model(model_name, shots, overwrite, out_name=DEFAULT_OUT, fp16=False):
                 "log_prob": log_prob,
             }) + "\n")
 
-            if idx % 20 == 0:
-                print(f"  {idx}/{len(tasks)} done  (running accuracy {n_correct/idx:.1%})")
+            if n_run % 20 == 0:
+                print(f"  {n_run} done  (running accuracy {n_correct/n_run:.1%})")
 
-    print(f"Finished {model_name}: {n_correct}/{len(tasks)} correct ({n_correct/len(tasks):.1%})")
+    total = max(n_run, 1)
+    print(f"Finished {model_name}: {n_correct}/{n_run} correct ({n_correct/total:.1%})"
+          + ("  [scratchpad]" if scratchpad else ""))
     print(f"Appended to {out_path}")
 
 
@@ -186,6 +198,12 @@ def main():
                              "induction-head probe task-relevant.")
     parser.add_argument("--overwrite", action="store_true",
                         help="clear previous rows for this (model, shots) pair first")
+    parser.add_argument("--scratchpad", action="store_true",
+                        help="supply every intermediate result except the last, so the "
+                             "model performs only the final operation. Tests whether "
+                             "composition failure is a binding problem rather than an "
+                             "arithmetic one. Only multi-step items are run; k=1 items "
+                             "are skipped.")
     parser.add_argument("--fp16", action="store_true",
                         help="load in half precision (GPU only). Halves memory, so "
                              "pythia-6.9b fits on a 16GB card. Log-probs shift slightly "
@@ -196,7 +214,8 @@ def main():
                              "results committed from different machines never collide in git. "
                              "analysis.py reads every results/raw_outputs*.jsonl automatically.")
     args = parser.parse_args()
-    run_model(args.model, args.shots, args.overwrite, args.out, args.fp16)
+    run_model(args.model, args.shots, args.overwrite, args.out, args.fp16,
+              args.scratchpad)
 
 
 if __name__ == "__main__":

@@ -150,7 +150,7 @@
     "expression": "2 + 2",
     "answer": "4",
     "num_steps": 1,
-    "held_out": true
+    "held_out": false
   },
   {
     "id": "single_digit_17",
@@ -159,7 +159,7 @@
     "expression": "7 + 2",
     "answer": "9",
     "num_steps": 1,
-    "held_out": true
+    "held_out": false
   },
   {
     "id": "single_digit_18",
@@ -168,7 +168,7 @@
     "expression": "6 + 6",
     "answer": "12",
     "num_steps": 1,
-    "held_out": true
+    "held_out": false
   },
   {
     "id": "single_digit_19",
@@ -177,14 +177,284 @@
     "expression": "5 + 1",
     "answer": "6",
     "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_20",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "8 + 9",
+    "answer": "17",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_21",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "2 + 7",
+    "answer": "9",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_22",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "2 + 9",
+    "answer": "11",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_23",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "5 + 6",
+    "answer": "11",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_24",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "4 + 2",
+    "answer": "6",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_25",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "1 + 4",
+    "answer": "5",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_26",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "5 + 2",
+    "answer": "7",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_27",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "4 + 2",
+    "answer": "6",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_28",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "7 + 5",
+    "answer": "12",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_29",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "8 + 6",
+    "answer": "14",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_30",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "3 + 6",
+    "answer": "9",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_31",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "6 + 4",
+    "answer": "10",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_32",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "5 + 2",
+    "answer": "7",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_33",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "3 + 9",
+    "answer": "12",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_34",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "4 + 3",
+    "answer": "7",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_35",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "8 + 7",
+    "answer": "15",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_36",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "5 + 9",
+    "answer": "14",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_37",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "4 + 6",
+    "answer": "10",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_38",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "1 + 4",
+    "answer": "5",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_39",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "1 + 6",
+    "answer": "7",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "single_digit_40",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "7 + 5",
+    "answer": "12",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "single_digit_41",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "2 + 4",
+    "answer": "6",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "single_digit_42",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "6 + 4",
+    "answer": "10",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "single_digit_43",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "8 + 7",
+    "answer": "15",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "single_digit_44",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "8 + 3",
+    "answer": "11",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "single_digit_45",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "5 + 3",
+    "answer": "8",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "single_digit_46",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "4 + 9",
+    "answer": "13",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "single_digit_47",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "9 + 5",
+    "answer": "14",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "single_digit_48",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "7 + 7",
+    "answer": "14",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "single_digit_49",
+    "tier": "single_digit",
+    "axis": "surface_difficulty",
+    "expression": "6 + 4",
+    "answer": "10",
+    "num_steps": 1,
     "held_out": true
   },
   {
     "id": "two_digit_00",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "68 + 78",
-    "answer": "146",
+    "expression": "27 + 75",
+    "answer": "102",
     "num_steps": 1,
     "held_out": false
   },
@@ -192,8 +462,8 @@
     "id": "two_digit_01",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "25 + 58",
-    "answer": "83",
+    "expression": "73 + 21",
+    "answer": "94",
     "num_steps": 1,
     "held_out": false
   },
@@ -201,8 +471,8 @@
     "id": "two_digit_02",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "20 + 80",
-    "answer": "100",
+    "expression": "16 + 24",
+    "answer": "40",
     "num_steps": 1,
     "held_out": false
   },
@@ -210,8 +480,8 @@
     "id": "two_digit_03",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "47 + 90",
-    "answer": "137",
+    "expression": "29 + 90",
+    "answer": "119",
     "num_steps": 1,
     "held_out": false
   },
@@ -219,8 +489,8 @@
     "id": "two_digit_04",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "89 + 56",
-    "answer": "145",
+    "expression": "30 + 97",
+    "answer": "127",
     "num_steps": 1,
     "held_out": false
   },
@@ -228,8 +498,8 @@
     "id": "two_digit_05",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "83 + 34",
-    "answer": "117",
+    "expression": "64 + 86",
+    "answer": "150",
     "num_steps": 1,
     "held_out": false
   },
@@ -237,8 +507,8 @@
     "id": "two_digit_06",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "18 + 15",
-    "answer": "33",
+    "expression": "18 + 59",
+    "answer": "77",
     "num_steps": 1,
     "held_out": false
   },
@@ -246,8 +516,8 @@
     "id": "two_digit_07",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "94 + 39",
-    "answer": "133",
+    "expression": "58 + 86",
+    "answer": "144",
     "num_steps": 1,
     "held_out": false
   },
@@ -255,8 +525,8 @@
     "id": "two_digit_08",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "47 + 20",
-    "answer": "67",
+    "expression": "69 + 77",
+    "answer": "146",
     "num_steps": 1,
     "held_out": false
   },
@@ -264,8 +534,8 @@
     "id": "two_digit_09",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "39 + 22",
-    "answer": "61",
+    "expression": "42 + 80",
+    "answer": "122",
     "num_steps": 1,
     "held_out": false
   },
@@ -273,8 +543,8 @@
     "id": "two_digit_10",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "58 + 45",
-    "answer": "103",
+    "expression": "11 + 97",
+    "answer": "108",
     "num_steps": 1,
     "held_out": false
   },
@@ -282,8 +552,8 @@
     "id": "two_digit_11",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "68 + 91",
-    "answer": "159",
+    "expression": "24 + 97",
+    "answer": "121",
     "num_steps": 1,
     "held_out": false
   },
@@ -291,8 +561,8 @@
     "id": "two_digit_12",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "56 + 30",
-    "answer": "86",
+    "expression": "78 + 44",
+    "answer": "122",
     "num_steps": 1,
     "held_out": false
   },
@@ -300,8 +570,8 @@
     "id": "two_digit_13",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "57 + 55",
-    "answer": "112",
+    "expression": "92 + 53",
+    "answer": "145",
     "num_steps": 1,
     "held_out": false
   },
@@ -309,8 +579,8 @@
     "id": "two_digit_14",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "36 + 95",
-    "answer": "131",
+    "expression": "24 + 47",
+    "answer": "71",
     "num_steps": 1,
     "held_out": false
   },
@@ -318,8 +588,8 @@
     "id": "two_digit_15",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "44 + 99",
-    "answer": "143",
+    "expression": "65 + 30",
+    "answer": "95",
     "num_steps": 1,
     "held_out": false
   },
@@ -327,35 +597,305 @@
     "id": "two_digit_16",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "97 + 92",
-    "answer": "189",
+    "expression": "68 + 10",
+    "answer": "78",
     "num_steps": 1,
-    "held_out": true
+    "held_out": false
   },
   {
     "id": "two_digit_17",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "19 + 87",
-    "answer": "106",
+    "expression": "43 + 74",
+    "answer": "117",
     "num_steps": 1,
-    "held_out": true
+    "held_out": false
   },
   {
     "id": "two_digit_18",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "91 + 31",
-    "answer": "122",
+    "expression": "32 + 74",
+    "answer": "106",
     "num_steps": 1,
-    "held_out": true
+    "held_out": false
   },
   {
     "id": "two_digit_19",
     "tier": "two_digit",
     "axis": "surface_difficulty",
-    "expression": "78 + 41",
+    "expression": "23 + 90",
+    "answer": "113",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_20",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "48 + 91",
+    "answer": "139",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_21",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "74 + 87",
+    "answer": "161",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_22",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "35 + 29",
+    "answer": "64",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_23",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "57 + 30",
+    "answer": "87",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_24",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "79 + 77",
+    "answer": "156",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_25",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "10 + 86",
+    "answer": "96",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_26",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "51 + 72",
+    "answer": "123",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_27",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "12 + 24",
+    "answer": "36",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_28",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "56 + 49",
+    "answer": "105",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_29",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "40 + 17",
+    "answer": "57",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_30",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "40 + 82",
+    "answer": "122",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_31",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "20 + 20",
+    "answer": "40",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_32",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "72 + 18",
+    "answer": "90",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_33",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "78 + 26",
+    "answer": "104",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_34",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "26 + 94",
+    "answer": "120",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_35",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "70 + 80",
+    "answer": "150",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_36",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "31 + 43",
+    "answer": "74",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_37",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "77 + 87",
+    "answer": "164",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_38",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "64 + 37",
+    "answer": "101",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_39",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "79 + 98",
+    "answer": "177",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "two_digit_40",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "35 + 49",
+    "answer": "84",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "two_digit_41",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "61 + 95",
+    "answer": "156",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "two_digit_42",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "93 + 57",
+    "answer": "150",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "two_digit_43",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "66 + 76",
+    "answer": "142",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "two_digit_44",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "67 + 25",
+    "answer": "92",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "two_digit_45",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "41 + 38",
+    "answer": "79",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "two_digit_46",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "18 + 53",
+    "answer": "71",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "two_digit_47",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "12 + 85",
+    "answer": "97",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "two_digit_48",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "80 + 39",
     "answer": "119",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "two_digit_49",
+    "tier": "two_digit",
+    "axis": "surface_difficulty",
+    "expression": "85 + 38",
+    "answer": "123",
     "num_steps": 1,
     "held_out": true
   },
@@ -363,8 +903,8 @@
     "id": "three_digit_00",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "267 + 573",
-    "answer": "840",
+    "expression": "107 + 172",
+    "answer": "279",
     "num_steps": 1,
     "held_out": false
   },
@@ -372,8 +912,8 @@
     "id": "three_digit_01",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "488 + 376",
-    "answer": "864",
+    "expression": "824 + 746",
+    "answer": "1570",
     "num_steps": 1,
     "held_out": false
   },
@@ -381,8 +921,8 @@
     "id": "three_digit_02",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "755 + 804",
-    "answer": "1559",
+    "expression": "160 + 334",
+    "answer": "494",
     "num_steps": 1,
     "held_out": false
   },
@@ -390,8 +930,8 @@
     "id": "three_digit_03",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "670 + 324",
-    "answer": "994",
+    "expression": "169 + 132",
+    "answer": "301",
     "num_steps": 1,
     "held_out": false
   },
@@ -399,8 +939,8 @@
     "id": "three_digit_04",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "801 + 432",
-    "answer": "1233",
+    "expression": "980 + 438",
+    "answer": "1418",
     "num_steps": 1,
     "held_out": false
   },
@@ -408,8 +948,8 @@
     "id": "three_digit_05",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "963 + 886",
-    "answer": "1849",
+    "expression": "172 + 626",
+    "answer": "798",
     "num_steps": 1,
     "held_out": false
   },
@@ -417,8 +957,8 @@
     "id": "three_digit_06",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "894 + 157",
-    "answer": "1051",
+    "expression": "343 + 385",
+    "answer": "728",
     "num_steps": 1,
     "held_out": false
   },
@@ -426,8 +966,8 @@
     "id": "three_digit_07",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "334 + 941",
-    "answer": "1275",
+    "expression": "785 + 597",
+    "answer": "1382",
     "num_steps": 1,
     "held_out": false
   },
@@ -435,8 +975,8 @@
     "id": "three_digit_08",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "132 + 924",
-    "answer": "1056",
+    "expression": "319 + 652",
+    "answer": "971",
     "num_steps": 1,
     "held_out": false
   },
@@ -444,8 +984,8 @@
     "id": "three_digit_09",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "423 + 510",
-    "answer": "933",
+    "expression": "235 + 840",
+    "answer": "1075",
     "num_steps": 1,
     "held_out": false
   },
@@ -453,8 +993,8 @@
     "id": "three_digit_10",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "374 + 167",
-    "answer": "541",
+    "expression": "684 + 690",
+    "answer": "1374",
     "num_steps": 1,
     "held_out": false
   },
@@ -462,8 +1002,8 @@
     "id": "three_digit_11",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "316 + 680",
-    "answer": "996",
+    "expression": "584 + 348",
+    "answer": "932",
     "num_steps": 1,
     "held_out": false
   },
@@ -471,8 +1011,8 @@
     "id": "three_digit_12",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "997 + 835",
-    "answer": "1832",
+    "expression": "903 + 584",
+    "answer": "1487",
     "num_steps": 1,
     "held_out": false
   },
@@ -480,8 +1020,8 @@
     "id": "three_digit_13",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "422 + 317",
-    "answer": "739",
+    "expression": "926 + 516",
+    "answer": "1442",
     "num_steps": 1,
     "held_out": false
   },
@@ -489,8 +1029,8 @@
     "id": "three_digit_14",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "771 + 611",
-    "answer": "1382",
+    "expression": "294 + 196",
+    "answer": "490",
     "num_steps": 1,
     "held_out": false
   },
@@ -498,8 +1038,8 @@
     "id": "three_digit_15",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "505 + 758",
-    "answer": "1263",
+    "expression": "199 + 774",
+    "answer": "973",
     "num_steps": 1,
     "held_out": false
   },
@@ -507,35 +1047,305 @@
     "id": "three_digit_16",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "569 + 246",
-    "answer": "815",
+    "expression": "541 + 462",
+    "answer": "1003",
     "num_steps": 1,
-    "held_out": true
+    "held_out": false
   },
   {
     "id": "three_digit_17",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "371 + 242",
-    "answer": "613",
+    "expression": "533 + 520",
+    "answer": "1053",
     "num_steps": 1,
-    "held_out": true
+    "held_out": false
   },
   {
     "id": "three_digit_18",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "352 + 862",
-    "answer": "1214",
+    "expression": "578 + 984",
+    "answer": "1562",
     "num_steps": 1,
-    "held_out": true
+    "held_out": false
   },
   {
     "id": "three_digit_19",
     "tier": "three_digit",
     "axis": "surface_difficulty",
-    "expression": "674 + 651",
-    "answer": "1325",
+    "expression": "846 + 155",
+    "answer": "1001",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_20",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "789 + 769",
+    "answer": "1558",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_21",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "761 + 200",
+    "answer": "961",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_22",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "162 + 512",
+    "answer": "674",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_23",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "845 + 447",
+    "answer": "1292",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_24",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "919 + 982",
+    "answer": "1901",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_25",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "211 + 354",
+    "answer": "565",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_26",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "296 + 294",
+    "answer": "590",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_27",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "649 + 559",
+    "answer": "1208",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_28",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "243 + 532",
+    "answer": "775",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_29",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "287 + 385",
+    "answer": "672",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_30",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "573 + 355",
+    "answer": "928",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_31",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "995 + 177",
+    "answer": "1172",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_32",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "553 + 927",
+    "answer": "1480",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_33",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "982 + 976",
+    "answer": "1958",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_34",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "663 + 200",
+    "answer": "863",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_35",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "151 + 767",
+    "answer": "918",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_36",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "653 + 956",
+    "answer": "1609",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_37",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "115 + 195",
+    "answer": "310",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_38",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "871 + 969",
+    "answer": "1840",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_39",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "342 + 270",
+    "answer": "612",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "three_digit_40",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "516 + 597",
+    "answer": "1113",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "three_digit_41",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "592 + 318",
+    "answer": "910",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "three_digit_42",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "985 + 510",
+    "answer": "1495",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "three_digit_43",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "160 + 268",
+    "answer": "428",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "three_digit_44",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "488 + 102",
+    "answer": "590",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "three_digit_45",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "499 + 371",
+    "answer": "870",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "three_digit_46",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "902 + 903",
+    "answer": "1805",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "three_digit_47",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "565 + 392",
+    "answer": "957",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "three_digit_48",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "533 + 813",
+    "answer": "1346",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "three_digit_49",
+    "tier": "three_digit",
+    "axis": "surface_difficulty",
+    "expression": "848 + 902",
+    "answer": "1750",
     "num_steps": 1,
     "held_out": true
   },
@@ -543,8 +1353,8 @@
     "id": "carrying_00",
     "tier": "carrying",
     "axis": "surface_difficulty",
-    "expression": "38 + 27",
-    "answer": "65",
+    "expression": "72 + 29",
+    "answer": "101",
     "num_steps": 1,
     "held_out": false
   },
@@ -552,8 +1362,8 @@
     "id": "carrying_01",
     "tier": "carrying",
     "axis": "surface_difficulty",
-    "expression": "24 + 29",
-    "answer": "53",
+    "expression": "34 + 47",
+    "answer": "81",
     "num_steps": 1,
     "held_out": false
   },
@@ -561,13 +1371,49 @@
     "id": "carrying_02",
     "tier": "carrying",
     "axis": "surface_difficulty",
-    "expression": "97 + 64",
-    "answer": "161",
+    "expression": "37 + 17",
+    "answer": "54",
     "num_steps": 1,
     "held_out": false
   },
   {
     "id": "carrying_03",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "84 + 79",
+    "answer": "163",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_04",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "17 + 16",
+    "answer": "33",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_05",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "74 + 77",
+    "answer": "151",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_06",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "33 + 18",
+    "answer": "51",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_07",
     "tier": "carrying",
     "axis": "surface_difficulty",
     "expression": "86 + 18",
@@ -576,47 +1422,11 @@
     "held_out": false
   },
   {
-    "id": "carrying_04",
-    "tier": "carrying",
-    "axis": "surface_difficulty",
-    "expression": "59 + 58",
-    "answer": "117",
-    "num_steps": 1,
-    "held_out": false
-  },
-  {
-    "id": "carrying_05",
-    "tier": "carrying",
-    "axis": "surface_difficulty",
-    "expression": "86 + 69",
-    "answer": "155",
-    "num_steps": 1,
-    "held_out": false
-  },
-  {
-    "id": "carrying_06",
-    "tier": "carrying",
-    "axis": "surface_difficulty",
-    "expression": "97 + 24",
-    "answer": "121",
-    "num_steps": 1,
-    "held_out": false
-  },
-  {
-    "id": "carrying_07",
-    "tier": "carrying",
-    "axis": "surface_difficulty",
-    "expression": "97 + 78",
-    "answer": "175",
-    "num_steps": 1,
-    "held_out": false
-  },
-  {
     "id": "carrying_08",
     "tier": "carrying",
     "axis": "surface_difficulty",
-    "expression": "47 + 65",
-    "answer": "112",
+    "expression": "84 + 86",
+    "answer": "170",
     "num_steps": 1,
     "held_out": false
   },
@@ -624,8 +1434,8 @@
     "id": "carrying_09",
     "tier": "carrying",
     "axis": "surface_difficulty",
-    "expression": "87 + 35",
-    "answer": "122",
+    "expression": "15 + 89",
+    "answer": "104",
     "num_steps": 1,
     "held_out": false
   },
@@ -633,8 +1443,8 @@
     "id": "carrying_10",
     "tier": "carrying",
     "axis": "surface_difficulty",
-    "expression": "29 + 57",
-    "answer": "86",
+    "expression": "36 + 95",
+    "answer": "131",
     "num_steps": 1,
     "held_out": false
   },
@@ -642,8 +1452,8 @@
     "id": "carrying_11",
     "tier": "carrying",
     "axis": "surface_difficulty",
-    "expression": "24 + 56",
-    "answer": "80",
+    "expression": "26 + 95",
+    "answer": "121",
     "num_steps": 1,
     "held_out": false
   },
@@ -651,8 +1461,8 @@
     "id": "carrying_12",
     "tier": "carrying",
     "axis": "surface_difficulty",
-    "expression": "18 + 78",
-    "answer": "96",
+    "expression": "92 + 48",
+    "answer": "140",
     "num_steps": 1,
     "held_out": false
   },
@@ -660,8 +1470,8 @@
     "id": "carrying_13",
     "tier": "carrying",
     "axis": "surface_difficulty",
-    "expression": "26 + 26",
-    "answer": "52",
+    "expression": "19 + 11",
+    "answer": "30",
     "num_steps": 1,
     "held_out": false
   },
@@ -669,8 +1479,8 @@
     "id": "carrying_14",
     "tier": "carrying",
     "axis": "surface_difficulty",
-    "expression": "43 + 77",
-    "answer": "120",
+    "expression": "68 + 89",
+    "answer": "157",
     "num_steps": 1,
     "held_out": false
   },
@@ -678,8 +1488,8 @@
     "id": "carrying_15",
     "tier": "carrying",
     "axis": "surface_difficulty",
-    "expression": "87 + 64",
-    "answer": "151",
+    "expression": "19 + 78",
+    "answer": "97",
     "num_steps": 1,
     "held_out": false
   },
@@ -687,35 +1497,305 @@
     "id": "carrying_16",
     "tier": "carrying",
     "axis": "surface_difficulty",
-    "expression": "37 + 79",
-    "answer": "116",
+    "expression": "37 + 74",
+    "answer": "111",
     "num_steps": 1,
-    "held_out": true
+    "held_out": false
   },
   {
     "id": "carrying_17",
     "tier": "carrying",
     "axis": "surface_difficulty",
-    "expression": "98 + 35",
-    "answer": "133",
+    "expression": "54 + 18",
+    "answer": "72",
     "num_steps": 1,
-    "held_out": true
+    "held_out": false
   },
   {
     "id": "carrying_18",
     "tier": "carrying",
     "axis": "surface_difficulty",
-    "expression": "49 + 61",
-    "answer": "110",
+    "expression": "66 + 79",
+    "answer": "145",
     "num_steps": 1,
-    "held_out": true
+    "held_out": false
   },
   {
     "id": "carrying_19",
     "tier": "carrying",
     "axis": "surface_difficulty",
-    "expression": "57 + 66",
+    "expression": "48 + 88",
+    "answer": "136",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_20",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "93 + 77",
+    "answer": "170",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_21",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "27 + 43",
+    "answer": "70",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_22",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "44 + 46",
+    "answer": "90",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_23",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "87 + 36",
     "answer": "123",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_24",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "45 + 15",
+    "answer": "60",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_25",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "19 + 98",
+    "answer": "117",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_26",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "29 + 79",
+    "answer": "108",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_27",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "14 + 57",
+    "answer": "71",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_28",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "28 + 65",
+    "answer": "93",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_29",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "26 + 15",
+    "answer": "41",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_30",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "49 + 56",
+    "answer": "105",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_31",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "15 + 55",
+    "answer": "70",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_32",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "36 + 97",
+    "answer": "133",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_33",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "89 + 29",
+    "answer": "118",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_34",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "99 + 23",
+    "answer": "122",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_35",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "58 + 14",
+    "answer": "72",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_36",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "35 + 68",
+    "answer": "103",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_37",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "54 + 49",
+    "answer": "103",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_38",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "39 + 38",
+    "answer": "77",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_39",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "18 + 45",
+    "answer": "63",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "carrying_40",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "96 + 78",
+    "answer": "174",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "carrying_41",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "87 + 75",
+    "answer": "162",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "carrying_42",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "24 + 59",
+    "answer": "83",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "carrying_43",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "76 + 78",
+    "answer": "154",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "carrying_44",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "97 + 95",
+    "answer": "192",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "carrying_45",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "35 + 56",
+    "answer": "91",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "carrying_46",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "65 + 18",
+    "answer": "83",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "carrying_47",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "48 + 74",
+    "answer": "122",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "carrying_48",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "49 + 95",
+    "answer": "144",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "carrying_49",
+    "tier": "carrying",
+    "axis": "surface_difficulty",
+    "expression": "61 + 99",
+    "answer": "160",
     "num_steps": 1,
     "held_out": true
   },
@@ -723,8 +1803,8 @@
     "id": "mult_single_00",
     "tier": "mult_single",
     "axis": "surface_difficulty",
-    "expression": "37 * 9",
-    "answer": "333",
+    "expression": "22 * 4",
+    "answer": "88",
     "num_steps": 1,
     "held_out": false
   },
@@ -732,8 +1812,8 @@
     "id": "mult_single_01",
     "tier": "mult_single",
     "axis": "surface_difficulty",
-    "expression": "11 * 5",
-    "answer": "55",
+    "expression": "16 * 8",
+    "answer": "128",
     "num_steps": 1,
     "held_out": false
   },
@@ -741,8 +1821,8 @@
     "id": "mult_single_02",
     "tier": "mult_single",
     "axis": "surface_difficulty",
-    "expression": "18 * 3",
-    "answer": "54",
+    "expression": "28 * 4",
+    "answer": "112",
     "num_steps": 1,
     "held_out": false
   },
@@ -750,8 +1830,8 @@
     "id": "mult_single_03",
     "tier": "mult_single",
     "axis": "surface_difficulty",
-    "expression": "25 * 2",
-    "answer": "50",
+    "expression": "40 * 6",
+    "answer": "240",
     "num_steps": 1,
     "held_out": false
   },
@@ -759,8 +1839,8 @@
     "id": "mult_single_04",
     "tier": "mult_single",
     "axis": "surface_difficulty",
-    "expression": "39 * 5",
-    "answer": "195",
+    "expression": "29 * 2",
+    "answer": "58",
     "num_steps": 1,
     "held_out": false
   },
@@ -768,8 +1848,8 @@
     "id": "mult_single_05",
     "tier": "mult_single",
     "axis": "surface_difficulty",
-    "expression": "18 * 2",
-    "answer": "36",
+    "expression": "23 * 6",
+    "answer": "138",
     "num_steps": 1,
     "held_out": false
   },
@@ -777,8 +1857,8 @@
     "id": "mult_single_06",
     "tier": "mult_single",
     "axis": "surface_difficulty",
-    "expression": "8 * 2",
-    "answer": "16",
+    "expression": "17 * 8",
+    "answer": "136",
     "num_steps": 1,
     "held_out": false
   },
@@ -786,8 +1866,8 @@
     "id": "mult_single_07",
     "tier": "mult_single",
     "axis": "surface_difficulty",
-    "expression": "18 * 3",
-    "answer": "54",
+    "expression": "24 * 9",
+    "answer": "216",
     "num_steps": 1,
     "held_out": false
   },
@@ -795,8 +1875,8 @@
     "id": "mult_single_08",
     "tier": "mult_single",
     "axis": "surface_difficulty",
-    "expression": "6 * 7",
-    "answer": "42",
+    "expression": "32 * 9",
+    "answer": "288",
     "num_steps": 1,
     "held_out": false
   },
@@ -804,8 +1884,8 @@
     "id": "mult_single_09",
     "tier": "mult_single",
     "axis": "surface_difficulty",
-    "expression": "8 * 5",
-    "answer": "40",
+    "expression": "17 * 9",
+    "answer": "153",
     "num_steps": 1,
     "held_out": false
   },
@@ -813,8 +1893,8 @@
     "id": "mult_single_10",
     "tier": "mult_single",
     "axis": "surface_difficulty",
-    "expression": "21 * 9",
-    "answer": "189",
+    "expression": "14 * 3",
+    "answer": "42",
     "num_steps": 1,
     "held_out": false
   },
@@ -822,8 +1902,8 @@
     "id": "mult_single_11",
     "tier": "mult_single",
     "axis": "surface_difficulty",
-    "expression": "17 * 4",
-    "answer": "68",
+    "expression": "22 * 7",
+    "answer": "154",
     "num_steps": 1,
     "held_out": false
   },
@@ -831,13 +1911,40 @@
     "id": "mult_single_12",
     "tier": "mult_single",
     "axis": "surface_difficulty",
-    "expression": "40 * 9",
-    "answer": "360",
+    "expression": "9 * 5",
+    "answer": "45",
     "num_steps": 1,
     "held_out": false
   },
   {
     "id": "mult_single_13",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "23 * 5",
+    "answer": "115",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_14",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "16 * 4",
+    "answer": "64",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_15",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "5 * 2",
+    "answer": "10",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_16",
     "tier": "mult_single",
     "axis": "surface_difficulty",
     "expression": "19 * 9",
@@ -846,7 +1953,16 @@
     "held_out": false
   },
   {
-    "id": "mult_single_14",
+    "id": "mult_single_17",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "8 * 9",
+    "answer": "72",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_18",
     "tier": "mult_single",
     "axis": "surface_difficulty",
     "expression": "30 * 5",
@@ -855,47 +1971,281 @@
     "held_out": false
   },
   {
-    "id": "mult_single_15",
+    "id": "mult_single_19",
     "tier": "mult_single",
     "axis": "surface_difficulty",
-    "expression": "10 * 3",
-    "answer": "30",
+    "expression": "28 * 9",
+    "answer": "252",
     "num_steps": 1,
     "held_out": false
   },
   {
-    "id": "mult_single_16",
+    "id": "mult_single_20",
     "tier": "mult_single",
     "axis": "surface_difficulty",
-    "expression": "31 * 7",
-    "answer": "217",
+    "expression": "29 * 5",
+    "answer": "145",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_21",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "13 * 2",
+    "answer": "26",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_22",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "10 * 8",
+    "answer": "80",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_23",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "18 * 4",
+    "answer": "72",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_24",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "37 * 9",
+    "answer": "333",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_25",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "7 * 5",
+    "answer": "35",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_26",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "11 * 9",
+    "answer": "99",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_27",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "12 * 9",
+    "answer": "108",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_28",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "37 * 7",
+    "answer": "259",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_29",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "32 * 8",
+    "answer": "256",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_30",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "39 * 9",
+    "answer": "351",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_31",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "14 * 9",
+    "answer": "126",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_32",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "32 * 6",
+    "answer": "192",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_33",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "19 * 6",
+    "answer": "114",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_34",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "37 * 9",
+    "answer": "333",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_35",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "19 * 6",
+    "answer": "114",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_36",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "32 * 3",
+    "answer": "96",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_37",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "22 * 5",
+    "answer": "110",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_38",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "21 * 7",
+    "answer": "147",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_39",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "24 * 3",
+    "answer": "72",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "mult_single_40",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "12 * 4",
+    "answer": "48",
     "num_steps": 1,
     "held_out": true
   },
   {
-    "id": "mult_single_17",
+    "id": "mult_single_41",
     "tier": "mult_single",
     "axis": "surface_difficulty",
-    "expression": "31 * 8",
-    "answer": "248",
+    "expression": "18 * 8",
+    "answer": "144",
     "num_steps": 1,
     "held_out": true
   },
   {
-    "id": "mult_single_18",
+    "id": "mult_single_42",
     "tier": "mult_single",
     "axis": "surface_difficulty",
-    "expression": "33 * 2",
-    "answer": "66",
+    "expression": "13 * 5",
+    "answer": "65",
     "num_steps": 1,
     "held_out": true
   },
   {
-    "id": "mult_single_19",
+    "id": "mult_single_43",
     "tier": "mult_single",
     "axis": "surface_difficulty",
-    "expression": "10 * 2",
-    "answer": "20",
+    "expression": "8 * 8",
+    "answer": "64",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "mult_single_44",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "30 * 7",
+    "answer": "210",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "mult_single_45",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "38 * 9",
+    "answer": "342",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "mult_single_46",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "30 * 2",
+    "answer": "60",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "mult_single_47",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "17 * 8",
+    "answer": "136",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "mult_single_48",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "28 * 2",
+    "answer": "56",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "mult_single_49",
+    "tier": "mult_single",
+    "axis": "surface_difficulty",
+    "expression": "40 * 8",
+    "answer": "320",
     "num_steps": 1,
     "held_out": true
   },
@@ -903,8 +2253,8 @@
     "id": "sub_single_00",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "226 - 12",
-    "answer": "214",
+    "expression": "264 - 2",
+    "answer": "262",
     "num_steps": 1,
     "held_out": false
   },
@@ -912,8 +2262,8 @@
     "id": "sub_single_01",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "75 - 9",
-    "answer": "66",
+    "expression": "200 - 11",
+    "answer": "189",
     "num_steps": 1,
     "held_out": false
   },
@@ -921,8 +2271,8 @@
     "id": "sub_single_02",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "118 - 8",
-    "answer": "110",
+    "expression": "219 - 15",
+    "answer": "204",
     "num_steps": 1,
     "held_out": false
   },
@@ -930,8 +2280,8 @@
     "id": "sub_single_03",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "294 - 16",
-    "answer": "278",
+    "expression": "295 - 19",
+    "answer": "276",
     "num_steps": 1,
     "held_out": false
   },
@@ -939,8 +2289,8 @@
     "id": "sub_single_04",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "91 - 15",
-    "answer": "76",
+    "expression": "132 - 17",
+    "answer": "115",
     "num_steps": 1,
     "held_out": false
   },
@@ -948,8 +2298,8 @@
     "id": "sub_single_05",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "113 - 10",
-    "answer": "103",
+    "expression": "132 - 10",
+    "answer": "122",
     "num_steps": 1,
     "held_out": false
   },
@@ -957,8 +2307,8 @@
     "id": "sub_single_06",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "256 - 9",
-    "answer": "247",
+    "expression": "243 - 17",
+    "answer": "226",
     "num_steps": 1,
     "held_out": false
   },
@@ -966,8 +2316,8 @@
     "id": "sub_single_07",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "58 - 16",
-    "answer": "42",
+    "expression": "34 - 14",
+    "answer": "20",
     "num_steps": 1,
     "held_out": false
   },
@@ -975,8 +2325,8 @@
     "id": "sub_single_08",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "70 - 3",
-    "answer": "67",
+    "expression": "192 - 14",
+    "answer": "178",
     "num_steps": 1,
     "held_out": false
   },
@@ -984,8 +2334,8 @@
     "id": "sub_single_09",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "296 - 2",
-    "answer": "294",
+    "expression": "104 - 16",
+    "answer": "88",
     "num_steps": 1,
     "held_out": false
   },
@@ -993,8 +2343,8 @@
     "id": "sub_single_10",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "67 - 9",
-    "answer": "58",
+    "expression": "85 - 19",
+    "answer": "66",
     "num_steps": 1,
     "held_out": false
   },
@@ -1002,8 +2352,8 @@
     "id": "sub_single_11",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "105 - 15",
-    "answer": "90",
+    "expression": "33 - 14",
+    "answer": "19",
     "num_steps": 1,
     "held_out": false
   },
@@ -1011,8 +2361,8 @@
     "id": "sub_single_12",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "268 - 17",
-    "answer": "251",
+    "expression": "33 - 4",
+    "answer": "29",
     "num_steps": 1,
     "held_out": false
   },
@@ -1020,8 +2370,8 @@
     "id": "sub_single_13",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "129 - 14",
-    "answer": "115",
+    "expression": "239 - 6",
+    "answer": "233",
     "num_steps": 1,
     "held_out": false
   },
@@ -1029,8 +2379,8 @@
     "id": "sub_single_14",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "50 - 7",
-    "answer": "43",
+    "expression": "256 - 7",
+    "answer": "249",
     "num_steps": 1,
     "held_out": false
   },
@@ -1038,8 +2388,8 @@
     "id": "sub_single_15",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "214 - 2",
-    "answer": "212",
+    "expression": "45 - 10",
+    "answer": "35",
     "num_steps": 1,
     "held_out": false
   },
@@ -1047,35 +2397,305 @@
     "id": "sub_single_16",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "219 - 10",
-    "answer": "209",
+    "expression": "214 - 12",
+    "answer": "202",
     "num_steps": 1,
-    "held_out": true
+    "held_out": false
   },
   {
     "id": "sub_single_17",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "252 - 11",
-    "answer": "241",
+    "expression": "128 - 16",
+    "answer": "112",
     "num_steps": 1,
-    "held_out": true
+    "held_out": false
   },
   {
     "id": "sub_single_18",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "236 - 19",
-    "answer": "217",
+    "expression": "187 - 12",
+    "answer": "175",
     "num_steps": 1,
-    "held_out": true
+    "held_out": false
   },
   {
     "id": "sub_single_19",
     "tier": "sub_single",
     "axis": "surface_difficulty",
-    "expression": "269 - 6",
-    "answer": "263",
+    "expression": "214 - 10",
+    "answer": "204",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_20",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "235 - 10",
+    "answer": "225",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_21",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "61 - 17",
+    "answer": "44",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_22",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "29 - 19",
+    "answer": "10",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_23",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "46 - 13",
+    "answer": "33",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_24",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "134 - 4",
+    "answer": "130",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_25",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "40 - 2",
+    "answer": "38",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_26",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "146 - 8",
+    "answer": "138",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_27",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "30 - 6",
+    "answer": "24",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_28",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "142 - 6",
+    "answer": "136",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_29",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "262 - 5",
+    "answer": "257",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_30",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "131 - 16",
+    "answer": "115",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_31",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "151 - 13",
+    "answer": "138",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_32",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "105 - 5",
+    "answer": "100",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_33",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "103 - 11",
+    "answer": "92",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_34",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "75 - 20",
+    "answer": "55",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_35",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "33 - 11",
+    "answer": "22",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_36",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "212 - 14",
+    "answer": "198",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_37",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "121 - 4",
+    "answer": "117",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_38",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "144 - 5",
+    "answer": "139",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_39",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "174 - 5",
+    "answer": "169",
+    "num_steps": 1,
+    "held_out": false
+  },
+  {
+    "id": "sub_single_40",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "41 - 13",
+    "answer": "28",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "sub_single_41",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "292 - 15",
+    "answer": "277",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "sub_single_42",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "209 - 4",
+    "answer": "205",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "sub_single_43",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "279 - 12",
+    "answer": "267",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "sub_single_44",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "26 - 15",
+    "answer": "11",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "sub_single_45",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "270 - 5",
+    "answer": "265",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "sub_single_46",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "241 - 13",
+    "answer": "228",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "sub_single_47",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "255 - 6",
+    "answer": "249",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "sub_single_48",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "242 - 7",
+    "answer": "235",
+    "num_steps": 1,
+    "held_out": true
+  },
+  {
+    "id": "sub_single_49",
+    "tier": "sub_single",
+    "axis": "surface_difficulty",
+    "expression": "287 - 10",
+    "answer": "277",
     "num_steps": 1,
     "held_out": true
   },
@@ -1083,11 +2703,17 @@
     "id": "depth_1_00",
     "tier": "depth_1",
     "axis": "step_depth",
-    "expression": "8 + 11",
-    "answer": "19",
+    "expression": "19 + 17",
+    "answer": "36",
     "num_steps": 1,
     "operations": [
       "add"
+    ],
+    "steps": [
+      [
+        "19 + 17",
+        "36"
+      ]
     ],
     "held_out": false
   },
@@ -1095,11 +2721,17 @@
     "id": "depth_1_01",
     "tier": "depth_1",
     "axis": "step_depth",
-    "expression": "12 + 3",
-    "answer": "15",
+    "expression": "12 + 9",
+    "answer": "21",
     "num_steps": 1,
     "operations": [
       "add"
+    ],
+    "steps": [
+      [
+        "12 + 9",
+        "21"
+      ]
     ],
     "held_out": false
   },
@@ -1107,16 +2739,94 @@
     "id": "depth_1_02",
     "tier": "depth_1",
     "axis": "step_depth",
-    "expression": "3 + 18",
-    "answer": "21",
+    "expression": "16 + 20",
+    "answer": "36",
     "num_steps": 1,
     "operations": [
       "add"
+    ],
+    "steps": [
+      [
+        "16 + 20",
+        "36"
+      ]
     ],
     "held_out": false
   },
   {
     "id": "depth_1_03",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "12 + 7",
+    "answer": "19",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "12 + 7",
+        "19"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_04",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "12 + 10",
+    "answer": "22",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "12 + 10",
+        "22"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_05",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "4 + 9",
+    "answer": "13",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "4 + 9",
+        "13"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_06",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "17 + 17",
+    "answer": "34",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "17 + 17",
+        "34"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_07",
     "tier": "depth_1",
     "axis": "step_depth",
     "expression": "9 + 14",
@@ -1125,53 +2835,11 @@
     "operations": [
       "add"
     ],
-    "held_out": false
-  },
-  {
-    "id": "depth_1_04",
-    "tier": "depth_1",
-    "axis": "step_depth",
-    "expression": "4 + 15",
-    "answer": "19",
-    "num_steps": 1,
-    "operations": [
-      "add"
-    ],
-    "held_out": false
-  },
-  {
-    "id": "depth_1_05",
-    "tier": "depth_1",
-    "axis": "step_depth",
-    "expression": "9 + 10",
-    "answer": "19",
-    "num_steps": 1,
-    "operations": [
-      "add"
-    ],
-    "held_out": false
-  },
-  {
-    "id": "depth_1_06",
-    "tier": "depth_1",
-    "axis": "step_depth",
-    "expression": "12 + 4",
-    "answer": "16",
-    "num_steps": 1,
-    "operations": [
-      "add"
-    ],
-    "held_out": false
-  },
-  {
-    "id": "depth_1_07",
-    "tier": "depth_1",
-    "axis": "step_depth",
-    "expression": "4 + 19",
-    "answer": "23",
-    "num_steps": 1,
-    "operations": [
-      "add"
+    "steps": [
+      [
+        "9 + 14",
+        "23"
+      ]
     ],
     "held_out": false
   },
@@ -1179,11 +2847,17 @@
     "id": "depth_1_08",
     "tier": "depth_1",
     "axis": "step_depth",
-    "expression": "13 + 4",
-    "answer": "17",
+    "expression": "17 + 19",
+    "answer": "36",
     "num_steps": 1,
     "operations": [
       "add"
+    ],
+    "steps": [
+      [
+        "17 + 19",
+        "36"
+      ]
     ],
     "held_out": false
   },
@@ -1191,11 +2865,17 @@
     "id": "depth_1_09",
     "tier": "depth_1",
     "axis": "step_depth",
-    "expression": "16 + 19",
-    "answer": "35",
+    "expression": "13 + 16",
+    "answer": "29",
     "num_steps": 1,
     "operations": [
       "add"
+    ],
+    "steps": [
+      [
+        "13 + 16",
+        "29"
+      ]
     ],
     "held_out": false
   },
@@ -1203,11 +2883,17 @@
     "id": "depth_1_10",
     "tier": "depth_1",
     "axis": "step_depth",
-    "expression": "5 + 6",
-    "answer": "11",
+    "expression": "5 + 8",
+    "answer": "13",
     "num_steps": 1,
     "operations": [
       "add"
+    ],
+    "steps": [
+      [
+        "5 + 8",
+        "13"
+      ]
     ],
     "held_out": false
   },
@@ -1215,11 +2901,17 @@
     "id": "depth_1_11",
     "tier": "depth_1",
     "axis": "step_depth",
-    "expression": "10 + 11",
-    "answer": "21",
+    "expression": "8 + 8",
+    "answer": "16",
     "num_steps": 1,
     "operations": [
       "add"
+    ],
+    "steps": [
+      [
+        "8 + 8",
+        "16"
+      ]
     ],
     "held_out": false
   },
@@ -1227,11 +2919,17 @@
     "id": "depth_1_12",
     "tier": "depth_1",
     "axis": "step_depth",
-    "expression": "18 + 17",
-    "answer": "35",
+    "expression": "5 + 8",
+    "answer": "13",
     "num_steps": 1,
     "operations": [
       "add"
+    ],
+    "steps": [
+      [
+        "5 + 8",
+        "13"
+      ]
     ],
     "held_out": false
   },
@@ -1239,11 +2937,17 @@
     "id": "depth_1_13",
     "tier": "depth_1",
     "axis": "step_depth",
-    "expression": "10 + 3",
+    "expression": "11 + 2",
     "answer": "13",
     "num_steps": 1,
     "operations": [
       "add"
+    ],
+    "steps": [
+      [
+        "11 + 2",
+        "13"
+      ]
     ],
     "held_out": false
   },
@@ -1251,11 +2955,17 @@
     "id": "depth_1_14",
     "tier": "depth_1",
     "axis": "step_depth",
-    "expression": "7 + 16",
-    "answer": "23",
+    "expression": "19 + 11",
+    "answer": "30",
     "num_steps": 1,
     "operations": [
       "add"
+    ],
+    "steps": [
+      [
+        "19 + 11",
+        "30"
+      ]
     ],
     "held_out": false
   },
@@ -1263,11 +2973,17 @@
     "id": "depth_1_15",
     "tier": "depth_1",
     "axis": "step_depth",
-    "expression": "4 + 6",
-    "answer": "10",
+    "expression": "20 + 11",
+    "answer": "31",
     "num_steps": 1,
     "operations": [
       "add"
+    ],
+    "steps": [
+      [
+        "20 + 11",
+        "31"
+      ]
     ],
     "held_out": false
   },
@@ -1275,47 +2991,611 @@
     "id": "depth_1_16",
     "tier": "depth_1",
     "axis": "step_depth",
-    "expression": "15 + 6",
-    "answer": "21",
+    "expression": "7 + 3",
+    "answer": "10",
     "num_steps": 1,
     "operations": [
       "add"
     ],
-    "held_out": true
+    "steps": [
+      [
+        "7 + 3",
+        "10"
+      ]
+    ],
+    "held_out": false
   },
   {
     "id": "depth_1_17",
     "tier": "depth_1",
     "axis": "step_depth",
-    "expression": "13 + 8",
-    "answer": "21",
+    "expression": "14 + 17",
+    "answer": "31",
     "num_steps": 1,
     "operations": [
       "add"
     ],
-    "held_out": true
+    "steps": [
+      [
+        "14 + 17",
+        "31"
+      ]
+    ],
+    "held_out": false
   },
   {
     "id": "depth_1_18",
     "tier": "depth_1",
     "axis": "step_depth",
-    "expression": "6 + 9",
-    "answer": "15",
+    "expression": "6 + 20",
+    "answer": "26",
     "num_steps": 1,
     "operations": [
       "add"
     ],
-    "held_out": true
+    "steps": [
+      [
+        "6 + 20",
+        "26"
+      ]
+    ],
+    "held_out": false
   },
   {
     "id": "depth_1_19",
     "tier": "depth_1",
     "axis": "step_depth",
-    "expression": "7 + 12",
-    "answer": "19",
+    "expression": "19 + 15",
+    "answer": "34",
     "num_steps": 1,
     "operations": [
       "add"
+    ],
+    "steps": [
+      [
+        "19 + 15",
+        "34"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_20",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "16 + 11",
+    "answer": "27",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "16 + 11",
+        "27"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_21",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "5 + 8",
+    "answer": "13",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "5 + 8",
+        "13"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_22",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "9 + 7",
+    "answer": "16",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "9 + 7",
+        "16"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_23",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "16 + 17",
+    "answer": "33",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "16 + 17",
+        "33"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_24",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "11 + 16",
+    "answer": "27",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "11 + 16",
+        "27"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_25",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "15 + 5",
+    "answer": "20",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "15 + 5",
+        "20"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_26",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "4 + 3",
+    "answer": "7",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "4 + 3",
+        "7"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_27",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "16 + 5",
+    "answer": "21",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "16 + 5",
+        "21"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_28",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "18 + 19",
+    "answer": "37",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "18 + 19",
+        "37"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_29",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "15 + 12",
+    "answer": "27",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "15 + 12",
+        "27"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_30",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "20 + 20",
+    "answer": "40",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "20 + 20",
+        "40"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_31",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "7 + 17",
+    "answer": "24",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "7 + 17",
+        "24"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_32",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "17 + 4",
+    "answer": "21",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "17 + 4",
+        "21"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_33",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "12 + 5",
+    "answer": "17",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "12 + 5",
+        "17"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_34",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "11 + 14",
+    "answer": "25",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "11 + 14",
+        "25"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_35",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "10 + 12",
+    "answer": "22",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "10 + 12",
+        "22"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_36",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "19 + 16",
+    "answer": "35",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "19 + 16",
+        "35"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_37",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "17 + 16",
+    "answer": "33",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "17 + 16",
+        "33"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_38",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "11 + 16",
+    "answer": "27",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "11 + 16",
+        "27"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_39",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "7 + 11",
+    "answer": "18",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "7 + 11",
+        "18"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_1_40",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "9 + 5",
+    "answer": "14",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "9 + 5",
+        "14"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_1_41",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "11 + 18",
+    "answer": "29",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "11 + 18",
+        "29"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_1_42",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "9 + 16",
+    "answer": "25",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "9 + 16",
+        "25"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_1_43",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "4 + 10",
+    "answer": "14",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "4 + 10",
+        "14"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_1_44",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "2 + 11",
+    "answer": "13",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "2 + 11",
+        "13"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_1_45",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "6 + 16",
+    "answer": "22",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "6 + 16",
+        "22"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_1_46",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "16 + 12",
+    "answer": "28",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "16 + 12",
+        "28"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_1_47",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "9 + 15",
+    "answer": "24",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "9 + 15",
+        "24"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_1_48",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "14 + 6",
+    "answer": "20",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "14 + 6",
+        "20"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_1_49",
+    "tier": "depth_1",
+    "axis": "step_depth",
+    "expression": "5 + 16",
+    "answer": "21",
+    "num_steps": 1,
+    "operations": [
+      "add"
+    ],
+    "steps": [
+      [
+        "5 + 16",
+        "21"
+      ]
     ],
     "held_out": true
   },
@@ -1323,17 +3603,487 @@
     "id": "depth_2_00",
     "tier": "depth_2",
     "axis": "step_depth",
-    "expression": "(5 + 14) * 2",
-    "answer": "38",
+    "expression": "(6 + 15) * 4",
+    "answer": "84",
     "num_steps": 2,
     "operations": [
       "add",
       "mult"
     ],
+    "steps": [
+      [
+        "6 + 15",
+        "21"
+      ],
+      [
+        "21 * 4",
+        "84"
+      ]
+    ],
     "held_out": false
   },
   {
     "id": "depth_2_01",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(12 + 14) * 3",
+    "answer": "78",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "12 + 14",
+        "26"
+      ],
+      [
+        "26 * 3",
+        "78"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_02",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(12 + 17) * 2",
+    "answer": "58",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "12 + 17",
+        "29"
+      ],
+      [
+        "29 * 2",
+        "58"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_03",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(9 + 4) * 8",
+    "answer": "104",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "9 + 4",
+        "13"
+      ],
+      [
+        "13 * 8",
+        "104"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_04",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(7 + 11) * 2",
+    "answer": "36",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "7 + 11",
+        "18"
+      ],
+      [
+        "18 * 2",
+        "36"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_05",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(11 + 13) * 7",
+    "answer": "168",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "11 + 13",
+        "24"
+      ],
+      [
+        "24 * 7",
+        "168"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_06",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(18 + 15) * 4",
+    "answer": "132",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "18 + 15",
+        "33"
+      ],
+      [
+        "33 * 4",
+        "132"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_07",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(14 + 9) * 9",
+    "answer": "207",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "14 + 9",
+        "23"
+      ],
+      [
+        "23 * 9",
+        "207"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_08",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(16 + 10) * 9",
+    "answer": "234",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "16 + 10",
+        "26"
+      ],
+      [
+        "26 * 9",
+        "234"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_09",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(11 + 19) * 4",
+    "answer": "120",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "11 + 19",
+        "30"
+      ],
+      [
+        "30 * 4",
+        "120"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_10",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(20 + 11) * 8",
+    "answer": "248",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "20 + 11",
+        "31"
+      ],
+      [
+        "31 * 8",
+        "248"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_11",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(8 + 14) * 9",
+    "answer": "198",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "8 + 14",
+        "22"
+      ],
+      [
+        "22 * 9",
+        "198"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_12",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(20 + 13) * 6",
+    "answer": "198",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "20 + 13",
+        "33"
+      ],
+      [
+        "33 * 6",
+        "198"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_13",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(10 + 2) * 2",
+    "answer": "24",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "10 + 2",
+        "12"
+      ],
+      [
+        "12 * 2",
+        "24"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_14",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(13 + 9) * 5",
+    "answer": "110",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "13 + 9",
+        "22"
+      ],
+      [
+        "22 * 5",
+        "110"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_15",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(3 + 11) * 9",
+    "answer": "126",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "3 + 11",
+        "14"
+      ],
+      [
+        "14 * 9",
+        "126"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_16",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(6 + 4) * 6",
+    "answer": "60",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "6 + 4",
+        "10"
+      ],
+      [
+        "10 * 6",
+        "60"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_17",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(8 + 6) * 7",
+    "answer": "98",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "8 + 6",
+        "14"
+      ],
+      [
+        "14 * 7",
+        "98"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_18",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(7 + 10) * 9",
+    "answer": "153",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "7 + 10",
+        "17"
+      ],
+      [
+        "17 * 9",
+        "153"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_19",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(16 + 4) * 4",
+    "answer": "80",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "16 + 4",
+        "20"
+      ],
+      [
+        "20 * 4",
+        "80"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_20",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(4 + 14) * 2",
+    "answer": "36",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "4 + 14",
+        "18"
+      ],
+      [
+        "18 * 2",
+        "36"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_21",
     "tier": "depth_2",
     "axis": "step_depth",
     "expression": "(16 + 13) * 6",
@@ -1343,239 +4093,659 @@
       "add",
       "mult"
     ],
+    "steps": [
+      [
+        "16 + 13",
+        "29"
+      ],
+      [
+        "29 * 6",
+        "174"
+      ]
+    ],
     "held_out": false
   },
   {
-    "id": "depth_2_02",
+    "id": "depth_2_22",
     "tier": "depth_2",
     "axis": "step_depth",
-    "expression": "(8 + 14) * 7",
-    "answer": "154",
+    "expression": "(5 + 9) * 9",
+    "answer": "126",
     "num_steps": 2,
     "operations": [
       "add",
       "mult"
     ],
+    "steps": [
+      [
+        "5 + 9",
+        "14"
+      ],
+      [
+        "14 * 9",
+        "126"
+      ]
+    ],
     "held_out": false
   },
   {
-    "id": "depth_2_03",
+    "id": "depth_2_23",
     "tier": "depth_2",
     "axis": "step_depth",
-    "expression": "(13 + 18) * 8",
-    "answer": "248",
+    "expression": "(9 + 4) * 9",
+    "answer": "117",
     "num_steps": 2,
     "operations": [
       "add",
       "mult"
     ],
+    "steps": [
+      [
+        "9 + 4",
+        "13"
+      ],
+      [
+        "13 * 9",
+        "117"
+      ]
+    ],
     "held_out": false
   },
   {
-    "id": "depth_2_04",
+    "id": "depth_2_24",
     "tier": "depth_2",
     "axis": "step_depth",
-    "expression": "(5 + 10) * 4",
-    "answer": "60",
+    "expression": "(6 + 3) * 2",
+    "answer": "18",
     "num_steps": 2,
     "operations": [
       "add",
       "mult"
     ],
+    "steps": [
+      [
+        "6 + 3",
+        "9"
+      ],
+      [
+        "9 * 2",
+        "18"
+      ]
+    ],
     "held_out": false
   },
   {
-    "id": "depth_2_05",
+    "id": "depth_2_25",
     "tier": "depth_2",
     "axis": "step_depth",
-    "expression": "(5 + 15) * 7",
+    "expression": "(5 + 9) * 4",
+    "answer": "56",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "5 + 9",
+        "14"
+      ],
+      [
+        "14 * 4",
+        "56"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_26",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(19 + 15) * 4",
+    "answer": "136",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "19 + 15",
+        "34"
+      ],
+      [
+        "34 * 4",
+        "136"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_27",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(15 + 10) * 2",
+    "answer": "50",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "15 + 10",
+        "25"
+      ],
+      [
+        "25 * 2",
+        "50"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_28",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(16 + 9) * 7",
+    "answer": "175",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "16 + 9",
+        "25"
+      ],
+      [
+        "25 * 7",
+        "175"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_29",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(3 + 14) * 6",
+    "answer": "102",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "3 + 14",
+        "17"
+      ],
+      [
+        "17 * 6",
+        "102"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_30",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(4 + 8) * 2",
+    "answer": "24",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "4 + 8",
+        "12"
+      ],
+      [
+        "12 * 2",
+        "24"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_31",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(6 + 20) * 5",
+    "answer": "130",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "6 + 20",
+        "26"
+      ],
+      [
+        "26 * 5",
+        "130"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_32",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(20 + 8) * 5",
     "answer": "140",
     "num_steps": 2,
     "operations": [
       "add",
       "mult"
     ],
+    "steps": [
+      [
+        "20 + 8",
+        "28"
+      ],
+      [
+        "28 * 5",
+        "140"
+      ]
+    ],
     "held_out": false
   },
   {
-    "id": "depth_2_06",
+    "id": "depth_2_33",
     "tier": "depth_2",
     "axis": "step_depth",
-    "expression": "(14 + 20) * 5",
-    "answer": "170",
+    "expression": "(10 + 6) * 4",
+    "answer": "64",
     "num_steps": 2,
     "operations": [
       "add",
       "mult"
     ],
-    "held_out": false
-  },
-  {
-    "id": "depth_2_07",
-    "tier": "depth_2",
-    "axis": "step_depth",
-    "expression": "(2 + 18) * 5",
-    "answer": "100",
-    "num_steps": 2,
-    "operations": [
-      "add",
-      "mult"
+    "steps": [
+      [
+        "10 + 6",
+        "16"
+      ],
+      [
+        "16 * 4",
+        "64"
+      ]
     ],
     "held_out": false
   },
   {
-    "id": "depth_2_08",
+    "id": "depth_2_34",
     "tier": "depth_2",
     "axis": "step_depth",
-    "expression": "(12 + 12) * 3",
-    "answer": "72",
-    "num_steps": 2,
-    "operations": [
-      "add",
-      "mult"
-    ],
-    "held_out": false
-  },
-  {
-    "id": "depth_2_09",
-    "tier": "depth_2",
-    "axis": "step_depth",
-    "expression": "(15 + 12) * 8",
-    "answer": "216",
-    "num_steps": 2,
-    "operations": [
-      "add",
-      "mult"
-    ],
-    "held_out": false
-  },
-  {
-    "id": "depth_2_10",
-    "tier": "depth_2",
-    "axis": "step_depth",
-    "expression": "(8 + 15) * 8",
-    "answer": "184",
-    "num_steps": 2,
-    "operations": [
-      "add",
-      "mult"
-    ],
-    "held_out": false
-  },
-  {
-    "id": "depth_2_11",
-    "tier": "depth_2",
-    "axis": "step_depth",
-    "expression": "(14 + 19) * 2",
-    "answer": "66",
-    "num_steps": 2,
-    "operations": [
-      "add",
-      "mult"
-    ],
-    "held_out": false
-  },
-  {
-    "id": "depth_2_12",
-    "tier": "depth_2",
-    "axis": "step_depth",
-    "expression": "(15 + 20) * 7",
-    "answer": "245",
-    "num_steps": 2,
-    "operations": [
-      "add",
-      "mult"
-    ],
-    "held_out": false
-  },
-  {
-    "id": "depth_2_13",
-    "tier": "depth_2",
-    "axis": "step_depth",
-    "expression": "(8 + 18) * 9",
-    "answer": "234",
-    "num_steps": 2,
-    "operations": [
-      "add",
-      "mult"
-    ],
-    "held_out": false
-  },
-  {
-    "id": "depth_2_14",
-    "tier": "depth_2",
-    "axis": "step_depth",
-    "expression": "(18 + 12) * 3",
-    "answer": "90",
-    "num_steps": 2,
-    "operations": [
-      "add",
-      "mult"
-    ],
-    "held_out": false
-  },
-  {
-    "id": "depth_2_15",
-    "tier": "depth_2",
-    "axis": "step_depth",
-    "expression": "(8 + 6) * 2",
+    "expression": "(5 + 2) * 4",
     "answer": "28",
     "num_steps": 2,
     "operations": [
       "add",
       "mult"
     ],
+    "steps": [
+      [
+        "5 + 2",
+        "7"
+      ],
+      [
+        "7 * 4",
+        "28"
+      ]
+    ],
     "held_out": false
   },
   {
-    "id": "depth_2_16",
+    "id": "depth_2_35",
     "tier": "depth_2",
     "axis": "step_depth",
-    "expression": "(4 + 16) * 8",
-    "answer": "160",
+    "expression": "(20 + 12) * 2",
+    "answer": "64",
     "num_steps": 2,
     "operations": [
       "add",
       "mult"
     ],
+    "steps": [
+      [
+        "20 + 12",
+        "32"
+      ],
+      [
+        "32 * 2",
+        "64"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_36",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(6 + 15) * 3",
+    "answer": "63",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "6 + 15",
+        "21"
+      ],
+      [
+        "21 * 3",
+        "63"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_37",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(13 + 18) * 3",
+    "answer": "93",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "13 + 18",
+        "31"
+      ],
+      [
+        "31 * 3",
+        "93"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_38",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(3 + 18) * 6",
+    "answer": "126",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "3 + 18",
+        "21"
+      ],
+      [
+        "21 * 6",
+        "126"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_39",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(17 + 14) * 8",
+    "answer": "248",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "17 + 14",
+        "31"
+      ],
+      [
+        "31 * 8",
+        "248"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_2_40",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(4 + 4) * 7",
+    "answer": "56",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "4 + 4",
+        "8"
+      ],
+      [
+        "8 * 7",
+        "56"
+      ]
+    ],
     "held_out": true
   },
   {
-    "id": "depth_2_17",
+    "id": "depth_2_41",
     "tier": "depth_2",
     "axis": "step_depth",
-    "expression": "(17 + 14) * 5",
+    "expression": "(10 + 20) * 7",
+    "answer": "210",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "10 + 20",
+        "30"
+      ],
+      [
+        "30 * 7",
+        "210"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_2_42",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(16 + 18) * 8",
+    "answer": "272",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "16 + 18",
+        "34"
+      ],
+      [
+        "34 * 8",
+        "272"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_2_43",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(15 + 16) * 5",
     "answer": "155",
     "num_steps": 2,
     "operations": [
       "add",
       "mult"
     ],
+    "steps": [
+      [
+        "15 + 16",
+        "31"
+      ],
+      [
+        "31 * 5",
+        "155"
+      ]
+    ],
     "held_out": true
   },
   {
-    "id": "depth_2_18",
+    "id": "depth_2_44",
     "tier": "depth_2",
     "axis": "step_depth",
-    "expression": "(15 + 9) * 4",
-    "answer": "96",
+    "expression": "(14 + 15) * 3",
+    "answer": "87",
     "num_steps": 2,
     "operations": [
       "add",
       "mult"
     ],
+    "steps": [
+      [
+        "14 + 15",
+        "29"
+      ],
+      [
+        "29 * 3",
+        "87"
+      ]
+    ],
     "held_out": true
   },
   {
-    "id": "depth_2_19",
+    "id": "depth_2_45",
     "tier": "depth_2",
     "axis": "step_depth",
-    "expression": "(19 + 9) * 3",
-    "answer": "84",
+    "expression": "(10 + 13) * 4",
+    "answer": "92",
     "num_steps": 2,
     "operations": [
       "add",
       "mult"
+    ],
+    "steps": [
+      [
+        "10 + 13",
+        "23"
+      ],
+      [
+        "23 * 4",
+        "92"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_2_46",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(4 + 4) * 8",
+    "answer": "64",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "4 + 4",
+        "8"
+      ],
+      [
+        "8 * 8",
+        "64"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_2_47",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(19 + 3) * 7",
+    "answer": "154",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "19 + 3",
+        "22"
+      ],
+      [
+        "22 * 7",
+        "154"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_2_48",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(15 + 3) * 6",
+    "answer": "108",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "15 + 3",
+        "18"
+      ],
+      [
+        "18 * 6",
+        "108"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_2_49",
+    "tier": "depth_2",
+    "axis": "step_depth",
+    "expression": "(20 + 18) * 5",
+    "answer": "190",
+    "num_steps": 2,
+    "operations": [
+      "add",
+      "mult"
+    ],
+    "steps": [
+      [
+        "20 + 18",
+        "38"
+      ],
+      [
+        "38 * 5",
+        "190"
+      ]
     ],
     "held_out": true
   },
@@ -1583,13 +4753,27 @@
     "id": "depth_3_00",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((18 + 19) * 7) + 16",
-    "answer": "275",
+    "expression": "((5 + 13) * 7) + 5",
+    "answer": "131",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
+    ],
+    "steps": [
+      [
+        "5 + 13",
+        "18"
+      ],
+      [
+        "18 * 7",
+        "126"
+      ],
+      [
+        "126 + 5",
+        "131"
+      ]
     ],
     "held_out": false
   },
@@ -1597,13 +4781,27 @@
     "id": "depth_3_01",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((19 + 16) * 4) + 17",
-    "answer": "157",
+    "expression": "((15 + 19) * 2) + 10",
+    "answer": "78",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
+    ],
+    "steps": [
+      [
+        "15 + 19",
+        "34"
+      ],
+      [
+        "34 * 2",
+        "68"
+      ],
+      [
+        "68 + 10",
+        "78"
+      ]
     ],
     "held_out": false
   },
@@ -1611,13 +4809,27 @@
     "id": "depth_3_02",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((9 + 10) * 9) + 9",
-    "answer": "180",
+    "expression": "((10 + 11) * 7) + 13",
+    "answer": "160",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
+    ],
+    "steps": [
+      [
+        "10 + 11",
+        "21"
+      ],
+      [
+        "21 * 7",
+        "147"
+      ],
+      [
+        "147 + 13",
+        "160"
+      ]
     ],
     "held_out": false
   },
@@ -1625,13 +4837,27 @@
     "id": "depth_3_03",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((4 + 11) * 5) + 10",
-    "answer": "85",
+    "expression": "((6 + 20) * 8) + 4",
+    "answer": "212",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
+    ],
+    "steps": [
+      [
+        "6 + 20",
+        "26"
+      ],
+      [
+        "26 * 8",
+        "208"
+      ],
+      [
+        "208 + 4",
+        "212"
+      ]
     ],
     "held_out": false
   },
@@ -1639,13 +4865,27 @@
     "id": "depth_3_04",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((19 + 4) * 4) + 6",
-    "answer": "98",
+    "expression": "((4 + 18) * 5) + 14",
+    "answer": "124",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
+    ],
+    "steps": [
+      [
+        "4 + 18",
+        "22"
+      ],
+      [
+        "22 * 5",
+        "110"
+      ],
+      [
+        "110 + 14",
+        "124"
+      ]
     ],
     "held_out": false
   },
@@ -1653,13 +4893,27 @@
     "id": "depth_3_05",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((6 + 8) * 3) + 15",
-    "answer": "57",
+    "expression": "((12 + 7) * 7) + 11",
+    "answer": "144",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
+    ],
+    "steps": [
+      [
+        "12 + 7",
+        "19"
+      ],
+      [
+        "19 * 7",
+        "133"
+      ],
+      [
+        "133 + 11",
+        "144"
+      ]
     ],
     "held_out": false
   },
@@ -1667,13 +4921,27 @@
     "id": "depth_3_06",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((19 + 16) * 8) + 3",
-    "answer": "283",
+    "expression": "((3 + 6) * 4) + 3",
+    "answer": "39",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
+    ],
+    "steps": [
+      [
+        "3 + 6",
+        "9"
+      ],
+      [
+        "9 * 4",
+        "36"
+      ],
+      [
+        "36 + 3",
+        "39"
+      ]
     ],
     "held_out": false
   },
@@ -1681,13 +4949,27 @@
     "id": "depth_3_07",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((14 + 20) * 2) + 20",
-    "answer": "88",
+    "expression": "((16 + 15) * 9) + 16",
+    "answer": "295",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
+    ],
+    "steps": [
+      [
+        "16 + 15",
+        "31"
+      ],
+      [
+        "31 * 9",
+        "279"
+      ],
+      [
+        "279 + 16",
+        "295"
+      ]
     ],
     "held_out": false
   },
@@ -1695,13 +4977,27 @@
     "id": "depth_3_08",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((2 + 13) * 6) + 14",
-    "answer": "104",
+    "expression": "((8 + 18) * 3) + 13",
+    "answer": "91",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
+    ],
+    "steps": [
+      [
+        "8 + 18",
+        "26"
+      ],
+      [
+        "26 * 3",
+        "78"
+      ],
+      [
+        "78 + 13",
+        "91"
+      ]
     ],
     "held_out": false
   },
@@ -1709,13 +5005,27 @@
     "id": "depth_3_09",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((17 + 9) * 6) + 15",
-    "answer": "171",
+    "expression": "((11 + 20) * 9) + 18",
+    "answer": "297",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
+    ],
+    "steps": [
+      [
+        "11 + 20",
+        "31"
+      ],
+      [
+        "31 * 9",
+        "279"
+      ],
+      [
+        "279 + 18",
+        "297"
+      ]
     ],
     "held_out": false
   },
@@ -1723,13 +5033,27 @@
     "id": "depth_3_10",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((14 + 12) * 8) + 7",
-    "answer": "215",
+    "expression": "((9 + 14) * 2) + 2",
+    "answer": "48",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
+    ],
+    "steps": [
+      [
+        "9 + 14",
+        "23"
+      ],
+      [
+        "23 * 2",
+        "46"
+      ],
+      [
+        "46 + 2",
+        "48"
+      ]
     ],
     "held_out": false
   },
@@ -1737,13 +5061,27 @@
     "id": "depth_3_11",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((19 + 2) * 8) + 20",
-    "answer": "188",
+    "expression": "((8 + 6) * 6) + 11",
+    "answer": "95",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
+    ],
+    "steps": [
+      [
+        "8 + 6",
+        "14"
+      ],
+      [
+        "14 * 6",
+        "84"
+      ],
+      [
+        "84 + 11",
+        "95"
+      ]
     ],
     "held_out": false
   },
@@ -1751,13 +5089,27 @@
     "id": "depth_3_12",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((4 + 15) * 4) + 16",
-    "answer": "92",
+    "expression": "((2 + 17) * 8) + 7",
+    "answer": "159",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
+    ],
+    "steps": [
+      [
+        "2 + 17",
+        "19"
+      ],
+      [
+        "19 * 8",
+        "152"
+      ],
+      [
+        "152 + 7",
+        "159"
+      ]
     ],
     "held_out": false
   },
@@ -1765,13 +5117,27 @@
     "id": "depth_3_13",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((10 + 14) * 7) + 8",
-    "answer": "176",
+    "expression": "((19 + 9) * 7) + 4",
+    "answer": "200",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
+    ],
+    "steps": [
+      [
+        "19 + 9",
+        "28"
+      ],
+      [
+        "28 * 7",
+        "196"
+      ],
+      [
+        "196 + 4",
+        "200"
+      ]
     ],
     "held_out": false
   },
@@ -1779,13 +5145,27 @@
     "id": "depth_3_14",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((12 + 14) * 6) + 15",
-    "answer": "171",
+    "expression": "((15 + 2) * 9) + 4",
+    "answer": "157",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
+    ],
+    "steps": [
+      [
+        "15 + 2",
+        "17"
+      ],
+      [
+        "17 * 9",
+        "153"
+      ],
+      [
+        "153 + 4",
+        "157"
+      ]
     ],
     "held_out": false
   },
@@ -1793,13 +5173,27 @@
     "id": "depth_3_15",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((17 + 2) * 2) + 13",
-    "answer": "51",
+    "expression": "((20 + 14) * 8) + 11",
+    "answer": "283",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
+    ],
+    "steps": [
+      [
+        "20 + 14",
+        "34"
+      ],
+      [
+        "34 * 8",
+        "272"
+      ],
+      [
+        "272 + 11",
+        "283"
+      ]
     ],
     "held_out": false
   },
@@ -1807,55 +5201,951 @@
     "id": "depth_3_16",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((3 + 2) * 5) + 8",
-    "answer": "33",
+    "expression": "((2 + 12) * 4) + 16",
+    "answer": "72",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
     ],
-    "held_out": true
+    "steps": [
+      [
+        "2 + 12",
+        "14"
+      ],
+      [
+        "14 * 4",
+        "56"
+      ],
+      [
+        "56 + 16",
+        "72"
+      ]
+    ],
+    "held_out": false
   },
   {
     "id": "depth_3_17",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((9 + 6) * 9) + 5",
-    "answer": "140",
+    "expression": "((15 + 5) * 5) + 15",
+    "answer": "115",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
     ],
-    "held_out": true
+    "steps": [
+      [
+        "15 + 5",
+        "20"
+      ],
+      [
+        "20 * 5",
+        "100"
+      ],
+      [
+        "100 + 15",
+        "115"
+      ]
+    ],
+    "held_out": false
   },
   {
     "id": "depth_3_18",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((16 + 10) * 7) + 7",
-    "answer": "189",
+    "expression": "((18 + 4) * 8) + 11",
+    "answer": "187",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
     ],
-    "held_out": true
+    "steps": [
+      [
+        "18 + 4",
+        "22"
+      ],
+      [
+        "22 * 8",
+        "176"
+      ],
+      [
+        "176 + 11",
+        "187"
+      ]
+    ],
+    "held_out": false
   },
   {
     "id": "depth_3_19",
     "tier": "depth_3",
     "axis": "step_depth",
-    "expression": "((11 + 5) * 2) + 11",
-    "answer": "43",
+    "expression": "((12 + 7) * 3) + 18",
+    "answer": "75",
     "num_steps": 3,
     "operations": [
       "add",
       "mult",
       "add"
+    ],
+    "steps": [
+      [
+        "12 + 7",
+        "19"
+      ],
+      [
+        "19 * 3",
+        "57"
+      ],
+      [
+        "57 + 18",
+        "75"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_20",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((13 + 13) * 4) + 9",
+    "answer": "113",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "13 + 13",
+        "26"
+      ],
+      [
+        "26 * 4",
+        "104"
+      ],
+      [
+        "104 + 9",
+        "113"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_21",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((10 + 8) * 4) + 6",
+    "answer": "78",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "10 + 8",
+        "18"
+      ],
+      [
+        "18 * 4",
+        "72"
+      ],
+      [
+        "72 + 6",
+        "78"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_22",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((17 + 16) * 9) + 20",
+    "answer": "317",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "17 + 16",
+        "33"
+      ],
+      [
+        "33 * 9",
+        "297"
+      ],
+      [
+        "297 + 20",
+        "317"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_23",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((6 + 16) * 3) + 17",
+    "answer": "83",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "6 + 16",
+        "22"
+      ],
+      [
+        "22 * 3",
+        "66"
+      ],
+      [
+        "66 + 17",
+        "83"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_24",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((10 + 20) * 2) + 13",
+    "answer": "73",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "10 + 20",
+        "30"
+      ],
+      [
+        "30 * 2",
+        "60"
+      ],
+      [
+        "60 + 13",
+        "73"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_25",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((11 + 16) * 9) + 3",
+    "answer": "246",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "11 + 16",
+        "27"
+      ],
+      [
+        "27 * 9",
+        "243"
+      ],
+      [
+        "243 + 3",
+        "246"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_26",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((11 + 4) * 3) + 18",
+    "answer": "63",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "11 + 4",
+        "15"
+      ],
+      [
+        "15 * 3",
+        "45"
+      ],
+      [
+        "45 + 18",
+        "63"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_27",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((20 + 19) * 2) + 16",
+    "answer": "94",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "20 + 19",
+        "39"
+      ],
+      [
+        "39 * 2",
+        "78"
+      ],
+      [
+        "78 + 16",
+        "94"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_28",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((12 + 17) * 4) + 3",
+    "answer": "119",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "12 + 17",
+        "29"
+      ],
+      [
+        "29 * 4",
+        "116"
+      ],
+      [
+        "116 + 3",
+        "119"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_29",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((12 + 4) * 4) + 3",
+    "answer": "67",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "12 + 4",
+        "16"
+      ],
+      [
+        "16 * 4",
+        "64"
+      ],
+      [
+        "64 + 3",
+        "67"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_30",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((16 + 18) * 4) + 13",
+    "answer": "149",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "16 + 18",
+        "34"
+      ],
+      [
+        "34 * 4",
+        "136"
+      ],
+      [
+        "136 + 13",
+        "149"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_31",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((14 + 15) * 7) + 3",
+    "answer": "206",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "14 + 15",
+        "29"
+      ],
+      [
+        "29 * 7",
+        "203"
+      ],
+      [
+        "203 + 3",
+        "206"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_32",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((12 + 5) * 8) + 11",
+    "answer": "147",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "12 + 5",
+        "17"
+      ],
+      [
+        "17 * 8",
+        "136"
+      ],
+      [
+        "136 + 11",
+        "147"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_33",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((12 + 4) * 4) + 13",
+    "answer": "77",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "12 + 4",
+        "16"
+      ],
+      [
+        "16 * 4",
+        "64"
+      ],
+      [
+        "64 + 13",
+        "77"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_34",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((6 + 4) * 6) + 19",
+    "answer": "79",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "6 + 4",
+        "10"
+      ],
+      [
+        "10 * 6",
+        "60"
+      ],
+      [
+        "60 + 19",
+        "79"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_35",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((6 + 18) * 3) + 15",
+    "answer": "87",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "6 + 18",
+        "24"
+      ],
+      [
+        "24 * 3",
+        "72"
+      ],
+      [
+        "72 + 15",
+        "87"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_36",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((2 + 13) * 6) + 7",
+    "answer": "97",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "2 + 13",
+        "15"
+      ],
+      [
+        "15 * 6",
+        "90"
+      ],
+      [
+        "90 + 7",
+        "97"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_37",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((17 + 8) * 5) + 6",
+    "answer": "131",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "17 + 8",
+        "25"
+      ],
+      [
+        "25 * 5",
+        "125"
+      ],
+      [
+        "125 + 6",
+        "131"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_38",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((11 + 5) * 2) + 12",
+    "answer": "44",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "11 + 5",
+        "16"
+      ],
+      [
+        "16 * 2",
+        "32"
+      ],
+      [
+        "32 + 12",
+        "44"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_39",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((6 + 7) * 4) + 7",
+    "answer": "59",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "6 + 7",
+        "13"
+      ],
+      [
+        "13 * 4",
+        "52"
+      ],
+      [
+        "52 + 7",
+        "59"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_3_40",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((15 + 13) * 5) + 16",
+    "answer": "156",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "15 + 13",
+        "28"
+      ],
+      [
+        "28 * 5",
+        "140"
+      ],
+      [
+        "140 + 16",
+        "156"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_3_41",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((9 + 19) * 5) + 11",
+    "answer": "151",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "9 + 19",
+        "28"
+      ],
+      [
+        "28 * 5",
+        "140"
+      ],
+      [
+        "140 + 11",
+        "151"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_3_42",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((13 + 20) * 9) + 16",
+    "answer": "313",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "13 + 20",
+        "33"
+      ],
+      [
+        "33 * 9",
+        "297"
+      ],
+      [
+        "297 + 16",
+        "313"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_3_43",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((18 + 18) * 8) + 7",
+    "answer": "295",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "18 + 18",
+        "36"
+      ],
+      [
+        "36 * 8",
+        "288"
+      ],
+      [
+        "288 + 7",
+        "295"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_3_44",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((10 + 3) * 9) + 13",
+    "answer": "130",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "10 + 3",
+        "13"
+      ],
+      [
+        "13 * 9",
+        "117"
+      ],
+      [
+        "117 + 13",
+        "130"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_3_45",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((18 + 5) * 6) + 4",
+    "answer": "142",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "18 + 5",
+        "23"
+      ],
+      [
+        "23 * 6",
+        "138"
+      ],
+      [
+        "138 + 4",
+        "142"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_3_46",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((16 + 18) * 4) + 15",
+    "answer": "151",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "16 + 18",
+        "34"
+      ],
+      [
+        "34 * 4",
+        "136"
+      ],
+      [
+        "136 + 15",
+        "151"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_3_47",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((16 + 13) * 2) + 15",
+    "answer": "73",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "16 + 13",
+        "29"
+      ],
+      [
+        "29 * 2",
+        "58"
+      ],
+      [
+        "58 + 15",
+        "73"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_3_48",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((18 + 13) * 5) + 14",
+    "answer": "169",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "18 + 13",
+        "31"
+      ],
+      [
+        "31 * 5",
+        "155"
+      ],
+      [
+        "155 + 14",
+        "169"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_3_49",
+    "tier": "depth_3",
+    "axis": "step_depth",
+    "expression": "((9 + 2) * 7) + 5",
+    "answer": "82",
+    "num_steps": 3,
+    "operations": [
+      "add",
+      "mult",
+      "add"
+    ],
+    "steps": [
+      [
+        "9 + 2",
+        "11"
+      ],
+      [
+        "11 * 7",
+        "77"
+      ],
+      [
+        "77 + 5",
+        "82"
+      ]
     ],
     "held_out": true
   },
@@ -1863,8 +6153,8 @@
     "id": "depth_4_00",
     "tier": "depth_4",
     "axis": "step_depth",
-    "expression": "(((14 + 8) * 3) + 20) - 9",
-    "answer": "77",
+    "expression": "(((6 + 3) * 6) + 17) - 6",
+    "answer": "65",
     "num_steps": 4,
     "operations": [
       "add",
@@ -1872,13 +6162,97 @@
       "add",
       "sub"
     ],
+    "steps": [
+      [
+        "6 + 3",
+        "9"
+      ],
+      [
+        "9 * 6",
+        "54"
+      ],
+      [
+        "54 + 17",
+        "71"
+      ],
+      [
+        "71 - 6",
+        "65"
+      ]
+    ],
     "held_out": false
   },
   {
     "id": "depth_4_01",
     "tier": "depth_4",
     "axis": "step_depth",
-    "expression": "(((11 + 5) * 2) + 13) - 19",
+    "expression": "(((16 + 2) * 3) + 2) - 10",
+    "answer": "46",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "16 + 2",
+        "18"
+      ],
+      [
+        "18 * 3",
+        "54"
+      ],
+      [
+        "54 + 2",
+        "56"
+      ],
+      [
+        "56 - 10",
+        "46"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_02",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((6 + 19) * 8) + 5) - 11",
+    "answer": "194",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "6 + 19",
+        "25"
+      ],
+      [
+        "25 * 8",
+        "200"
+      ],
+      [
+        "200 + 5",
+        "205"
+      ],
+      [
+        "205 - 11",
+        "194"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_03",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((11 + 5) * 2) + 9) - 15",
     "answer": "26",
     "num_steps": 4,
     "operations": [
@@ -1887,35 +6261,23 @@
       "add",
       "sub"
     ],
-    "held_out": false
-  },
-  {
-    "id": "depth_4_02",
-    "tier": "depth_4",
-    "axis": "step_depth",
-    "expression": "(((13 + 4) * 7) + 2) - 15",
-    "answer": "106",
-    "num_steps": 4,
-    "operations": [
-      "add",
-      "mult",
-      "add",
-      "sub"
-    ],
-    "held_out": false
-  },
-  {
-    "id": "depth_4_03",
-    "tier": "depth_4",
-    "axis": "step_depth",
-    "expression": "(((5 + 15) * 7) + 16) - 6",
-    "answer": "150",
-    "num_steps": 4,
-    "operations": [
-      "add",
-      "mult",
-      "add",
-      "sub"
+    "steps": [
+      [
+        "11 + 5",
+        "16"
+      ],
+      [
+        "16 * 2",
+        "32"
+      ],
+      [
+        "32 + 9",
+        "41"
+      ],
+      [
+        "41 - 15",
+        "26"
+      ]
     ],
     "held_out": false
   },
@@ -1923,14 +6285,32 @@
     "id": "depth_4_04",
     "tier": "depth_4",
     "axis": "step_depth",
-    "expression": "(((7 + 18) * 6) + 19) - 17",
-    "answer": "152",
+    "expression": "(((4 + 5) * 9) + 19) - 2",
+    "answer": "98",
     "num_steps": 4,
     "operations": [
       "add",
       "mult",
       "add",
       "sub"
+    ],
+    "steps": [
+      [
+        "4 + 5",
+        "9"
+      ],
+      [
+        "9 * 9",
+        "81"
+      ],
+      [
+        "81 + 19",
+        "100"
+      ],
+      [
+        "100 - 2",
+        "98"
+      ]
     ],
     "held_out": false
   },
@@ -1938,8 +6318,8 @@
     "id": "depth_4_05",
     "tier": "depth_4",
     "axis": "step_depth",
-    "expression": "(((15 + 20) * 6) + 12) - 9",
-    "answer": "213",
+    "expression": "(((6 + 11) * 8) + 2) - 13",
+    "answer": "125",
     "num_steps": 4,
     "operations": [
       "add",
@@ -1947,13 +6327,31 @@
       "add",
       "sub"
     ],
+    "steps": [
+      [
+        "6 + 11",
+        "17"
+      ],
+      [
+        "17 * 8",
+        "136"
+      ],
+      [
+        "136 + 2",
+        "138"
+      ],
+      [
+        "138 - 13",
+        "125"
+      ]
+    ],
     "held_out": false
   },
   {
     "id": "depth_4_06",
     "tier": "depth_4",
     "axis": "step_depth",
-    "expression": "(((10 + 16) * 5) + 16) - 20",
+    "expression": "(((20 + 15) * 4) + 4) - 18",
     "answer": "126",
     "num_steps": 4,
     "operations": [
@@ -1962,20 +6360,56 @@
       "add",
       "sub"
     ],
+    "steps": [
+      [
+        "20 + 15",
+        "35"
+      ],
+      [
+        "35 * 4",
+        "140"
+      ],
+      [
+        "140 + 4",
+        "144"
+      ],
+      [
+        "144 - 18",
+        "126"
+      ]
+    ],
     "held_out": false
   },
   {
     "id": "depth_4_07",
     "tier": "depth_4",
     "axis": "step_depth",
-    "expression": "(((12 + 2) * 9) + 12) - 7",
-    "answer": "131",
+    "expression": "(((4 + 18) * 2) + 14) - 17",
+    "answer": "41",
     "num_steps": 4,
     "operations": [
       "add",
       "mult",
       "add",
       "sub"
+    ],
+    "steps": [
+      [
+        "4 + 18",
+        "22"
+      ],
+      [
+        "22 * 2",
+        "44"
+      ],
+      [
+        "44 + 14",
+        "58"
+      ],
+      [
+        "58 - 17",
+        "41"
+      ]
     ],
     "held_out": false
   },
@@ -1983,14 +6417,32 @@
     "id": "depth_4_08",
     "tier": "depth_4",
     "axis": "step_depth",
-    "expression": "(((8 + 13) * 6) + 12) - 10",
-    "answer": "128",
+    "expression": "(((14 + 13) * 6) + 2) - 13",
+    "answer": "151",
     "num_steps": 4,
     "operations": [
       "add",
       "mult",
       "add",
       "sub"
+    ],
+    "steps": [
+      [
+        "14 + 13",
+        "27"
+      ],
+      [
+        "27 * 6",
+        "162"
+      ],
+      [
+        "162 + 2",
+        "164"
+      ],
+      [
+        "164 - 13",
+        "151"
+      ]
     ],
     "held_out": false
   },
@@ -1998,14 +6450,32 @@
     "id": "depth_4_09",
     "tier": "depth_4",
     "axis": "step_depth",
-    "expression": "(((19 + 2) * 5) + 4) - 9",
-    "answer": "100",
+    "expression": "(((13 + 9) * 3) + 20) - 12",
+    "answer": "74",
     "num_steps": 4,
     "operations": [
       "add",
       "mult",
       "add",
       "sub"
+    ],
+    "steps": [
+      [
+        "13 + 9",
+        "22"
+      ],
+      [
+        "22 * 3",
+        "66"
+      ],
+      [
+        "66 + 20",
+        "86"
+      ],
+      [
+        "86 - 12",
+        "74"
+      ]
     ],
     "held_out": false
   },
@@ -2013,14 +6483,32 @@
     "id": "depth_4_10",
     "tier": "depth_4",
     "axis": "step_depth",
-    "expression": "(((17 + 19) * 5) + 17) - 17",
-    "answer": "180",
+    "expression": "(((3 + 13) * 7) + 7) - 16",
+    "answer": "103",
     "num_steps": 4,
     "operations": [
       "add",
       "mult",
       "add",
       "sub"
+    ],
+    "steps": [
+      [
+        "3 + 13",
+        "16"
+      ],
+      [
+        "16 * 7",
+        "112"
+      ],
+      [
+        "112 + 7",
+        "119"
+      ],
+      [
+        "119 - 16",
+        "103"
+      ]
     ],
     "held_out": false
   },
@@ -2028,14 +6516,32 @@
     "id": "depth_4_11",
     "tier": "depth_4",
     "axis": "step_depth",
-    "expression": "(((2 + 4) * 6) + 9) - 14",
-    "answer": "31",
+    "expression": "(((7 + 6) * 3) + 16) - 3",
+    "answer": "52",
     "num_steps": 4,
     "operations": [
       "add",
       "mult",
       "add",
       "sub"
+    ],
+    "steps": [
+      [
+        "7 + 6",
+        "13"
+      ],
+      [
+        "13 * 3",
+        "39"
+      ],
+      [
+        "39 + 16",
+        "55"
+      ],
+      [
+        "55 - 3",
+        "52"
+      ]
     ],
     "held_out": false
   },
@@ -2043,14 +6549,32 @@
     "id": "depth_4_12",
     "tier": "depth_4",
     "axis": "step_depth",
-    "expression": "(((11 + 20) * 7) + 17) - 19",
-    "answer": "215",
+    "expression": "(((8 + 3) * 5) + 3) - 12",
+    "answer": "46",
     "num_steps": 4,
     "operations": [
       "add",
       "mult",
       "add",
       "sub"
+    ],
+    "steps": [
+      [
+        "8 + 3",
+        "11"
+      ],
+      [
+        "11 * 5",
+        "55"
+      ],
+      [
+        "55 + 3",
+        "58"
+      ],
+      [
+        "58 - 12",
+        "46"
+      ]
     ],
     "held_out": false
   },
@@ -2058,14 +6582,32 @@
     "id": "depth_4_13",
     "tier": "depth_4",
     "axis": "step_depth",
-    "expression": "(((15 + 19) * 7) + 13) - 16",
-    "answer": "235",
+    "expression": "(((18 + 14) * 9) + 10) - 3",
+    "answer": "295",
     "num_steps": 4,
     "operations": [
       "add",
       "mult",
       "add",
       "sub"
+    ],
+    "steps": [
+      [
+        "18 + 14",
+        "32"
+      ],
+      [
+        "32 * 9",
+        "288"
+      ],
+      [
+        "288 + 10",
+        "298"
+      ],
+      [
+        "298 - 3",
+        "295"
+      ]
     ],
     "held_out": false
   },
@@ -2073,14 +6615,32 @@
     "id": "depth_4_14",
     "tier": "depth_4",
     "axis": "step_depth",
-    "expression": "(((11 + 10) * 5) + 5) - 8",
-    "answer": "102",
+    "expression": "(((11 + 13) * 2) + 12) - 10",
+    "answer": "50",
     "num_steps": 4,
     "operations": [
       "add",
       "mult",
       "add",
       "sub"
+    ],
+    "steps": [
+      [
+        "11 + 13",
+        "24"
+      ],
+      [
+        "24 * 2",
+        "48"
+      ],
+      [
+        "48 + 12",
+        "60"
+      ],
+      [
+        "60 - 10",
+        "50"
+      ]
     ],
     "held_out": false
   },
@@ -2088,14 +6648,32 @@
     "id": "depth_4_15",
     "tier": "depth_4",
     "axis": "step_depth",
-    "expression": "(((5 + 19) * 4) + 8) - 8",
-    "answer": "96",
+    "expression": "(((13 + 15) * 8) + 16) - 14",
+    "answer": "226",
     "num_steps": 4,
     "operations": [
       "add",
       "mult",
       "add",
       "sub"
+    ],
+    "steps": [
+      [
+        "13 + 15",
+        "28"
+      ],
+      [
+        "28 * 8",
+        "224"
+      ],
+      [
+        "224 + 16",
+        "240"
+      ],
+      [
+        "240 - 14",
+        "226"
+      ]
     ],
     "held_out": false
   },
@@ -2103,8 +6681,8 @@
     "id": "depth_4_16",
     "tier": "depth_4",
     "axis": "step_depth",
-    "expression": "(((10 + 20) * 6) + 5) - 8",
-    "answer": "177",
+    "expression": "(((7 + 17) * 9) + 13) - 18",
+    "answer": "211",
     "num_steps": 4,
     "operations": [
       "add",
@@ -2112,13 +6690,427 @@
       "add",
       "sub"
     ],
-    "held_out": true
+    "steps": [
+      [
+        "7 + 17",
+        "24"
+      ],
+      [
+        "24 * 9",
+        "216"
+      ],
+      [
+        "216 + 13",
+        "229"
+      ],
+      [
+        "229 - 18",
+        "211"
+      ]
+    ],
+    "held_out": false
   },
   {
     "id": "depth_4_17",
     "tier": "depth_4",
     "axis": "step_depth",
-    "expression": "(((9 + 13) * 4) + 11) - 2",
+    "expression": "(((4 + 15) * 3) + 15) - 7",
+    "answer": "65",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "4 + 15",
+        "19"
+      ],
+      [
+        "19 * 3",
+        "57"
+      ],
+      [
+        "57 + 15",
+        "72"
+      ],
+      [
+        "72 - 7",
+        "65"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_18",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((12 + 5) * 3) + 12) - 11",
+    "answer": "52",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "12 + 5",
+        "17"
+      ],
+      [
+        "17 * 3",
+        "51"
+      ],
+      [
+        "51 + 12",
+        "63"
+      ],
+      [
+        "63 - 11",
+        "52"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_19",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((16 + 15) * 4) + 16) - 13",
+    "answer": "127",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "16 + 15",
+        "31"
+      ],
+      [
+        "31 * 4",
+        "124"
+      ],
+      [
+        "124 + 16",
+        "140"
+      ],
+      [
+        "140 - 13",
+        "127"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_20",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((3 + 13) * 8) + 10) - 3",
+    "answer": "135",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "3 + 13",
+        "16"
+      ],
+      [
+        "16 * 8",
+        "128"
+      ],
+      [
+        "128 + 10",
+        "138"
+      ],
+      [
+        "138 - 3",
+        "135"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_21",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((14 + 13) * 4) + 2) - 6",
+    "answer": "104",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "14 + 13",
+        "27"
+      ],
+      [
+        "27 * 4",
+        "108"
+      ],
+      [
+        "108 + 2",
+        "110"
+      ],
+      [
+        "110 - 6",
+        "104"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_22",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((3 + 6) * 3) + 9) - 13",
+    "answer": "23",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "3 + 6",
+        "9"
+      ],
+      [
+        "9 * 3",
+        "27"
+      ],
+      [
+        "27 + 9",
+        "36"
+      ],
+      [
+        "36 - 13",
+        "23"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_23",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((14 + 20) * 2) + 6) - 16",
+    "answer": "58",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "14 + 20",
+        "34"
+      ],
+      [
+        "34 * 2",
+        "68"
+      ],
+      [
+        "68 + 6",
+        "74"
+      ],
+      [
+        "74 - 16",
+        "58"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_24",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((13 + 16) * 3) + 20) - 6",
+    "answer": "101",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "13 + 16",
+        "29"
+      ],
+      [
+        "29 * 3",
+        "87"
+      ],
+      [
+        "87 + 20",
+        "107"
+      ],
+      [
+        "107 - 6",
+        "101"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_25",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((14 + 12) * 6) + 9) - 5",
+    "answer": "160",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "14 + 12",
+        "26"
+      ],
+      [
+        "26 * 6",
+        "156"
+      ],
+      [
+        "156 + 9",
+        "165"
+      ],
+      [
+        "165 - 5",
+        "160"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_26",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((7 + 17) * 8) + 19) - 5",
+    "answer": "206",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "7 + 17",
+        "24"
+      ],
+      [
+        "24 * 8",
+        "192"
+      ],
+      [
+        "192 + 19",
+        "211"
+      ],
+      [
+        "211 - 5",
+        "206"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_27",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((10 + 16) * 5) + 11) - 17",
+    "answer": "124",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "10 + 16",
+        "26"
+      ],
+      [
+        "26 * 5",
+        "130"
+      ],
+      [
+        "130 + 11",
+        "141"
+      ],
+      [
+        "141 - 17",
+        "124"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_28",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((5 + 6) * 3) + 16) - 7",
+    "answer": "42",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "5 + 6",
+        "11"
+      ],
+      [
+        "11 * 3",
+        "33"
+      ],
+      [
+        "33 + 16",
+        "49"
+      ],
+      [
+        "49 - 7",
+        "42"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_29",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((4 + 12) * 7) + 4) - 19",
     "answer": "97",
     "num_steps": 4,
     "operations": [
@@ -2127,14 +7119,32 @@
       "add",
       "sub"
     ],
-    "held_out": true
+    "steps": [
+      [
+        "4 + 12",
+        "16"
+      ],
+      [
+        "16 * 7",
+        "112"
+      ],
+      [
+        "112 + 4",
+        "116"
+      ],
+      [
+        "116 - 19",
+        "97"
+      ]
+    ],
+    "held_out": false
   },
   {
-    "id": "depth_4_18",
+    "id": "depth_4_30",
     "tier": "depth_4",
     "axis": "step_depth",
-    "expression": "(((10 + 3) * 2) + 19) - 11",
-    "answer": "34",
+    "expression": "(((11 + 7) * 4) + 13) - 18",
+    "answer": "67",
     "num_steps": 4,
     "operations": [
       "add",
@@ -2142,20 +7152,650 @@
       "add",
       "sub"
     ],
-    "held_out": true
+    "steps": [
+      [
+        "11 + 7",
+        "18"
+      ],
+      [
+        "18 * 4",
+        "72"
+      ],
+      [
+        "72 + 13",
+        "85"
+      ],
+      [
+        "85 - 18",
+        "67"
+      ]
+    ],
+    "held_out": false
   },
   {
-    "id": "depth_4_19",
+    "id": "depth_4_31",
     "tier": "depth_4",
     "axis": "step_depth",
-    "expression": "(((17 + 5) * 2) + 20) - 11",
-    "answer": "53",
+    "expression": "(((5 + 8) * 4) + 9) - 17",
+    "answer": "44",
     "num_steps": 4,
     "operations": [
       "add",
       "mult",
       "add",
       "sub"
+    ],
+    "steps": [
+      [
+        "5 + 8",
+        "13"
+      ],
+      [
+        "13 * 4",
+        "52"
+      ],
+      [
+        "52 + 9",
+        "61"
+      ],
+      [
+        "61 - 17",
+        "44"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_32",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((13 + 19) * 7) + 16) - 19",
+    "answer": "221",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "13 + 19",
+        "32"
+      ],
+      [
+        "32 * 7",
+        "224"
+      ],
+      [
+        "224 + 16",
+        "240"
+      ],
+      [
+        "240 - 19",
+        "221"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_33",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((4 + 4) * 6) + 14) - 17",
+    "answer": "45",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "4 + 4",
+        "8"
+      ],
+      [
+        "8 * 6",
+        "48"
+      ],
+      [
+        "48 + 14",
+        "62"
+      ],
+      [
+        "62 - 17",
+        "45"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_34",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((15 + 20) * 3) + 6) - 12",
+    "answer": "99",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "15 + 20",
+        "35"
+      ],
+      [
+        "35 * 3",
+        "105"
+      ],
+      [
+        "105 + 6",
+        "111"
+      ],
+      [
+        "111 - 12",
+        "99"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_35",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((16 + 16) * 7) + 6) - 19",
+    "answer": "211",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "16 + 16",
+        "32"
+      ],
+      [
+        "32 * 7",
+        "224"
+      ],
+      [
+        "224 + 6",
+        "230"
+      ],
+      [
+        "230 - 19",
+        "211"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_36",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((6 + 15) * 2) + 5) - 18",
+    "answer": "29",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "6 + 15",
+        "21"
+      ],
+      [
+        "21 * 2",
+        "42"
+      ],
+      [
+        "42 + 5",
+        "47"
+      ],
+      [
+        "47 - 18",
+        "29"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_37",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((11 + 7) * 4) + 12) - 9",
+    "answer": "75",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "11 + 7",
+        "18"
+      ],
+      [
+        "18 * 4",
+        "72"
+      ],
+      [
+        "72 + 12",
+        "84"
+      ],
+      [
+        "84 - 9",
+        "75"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_38",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((18 + 11) * 3) + 10) - 8",
+    "answer": "89",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "18 + 11",
+        "29"
+      ],
+      [
+        "29 * 3",
+        "87"
+      ],
+      [
+        "87 + 10",
+        "97"
+      ],
+      [
+        "97 - 8",
+        "89"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_39",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((6 + 11) * 3) + 18) - 7",
+    "answer": "62",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "6 + 11",
+        "17"
+      ],
+      [
+        "17 * 3",
+        "51"
+      ],
+      [
+        "51 + 18",
+        "69"
+      ],
+      [
+        "69 - 7",
+        "62"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_4_40",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((7 + 12) * 2) + 2) - 4",
+    "answer": "36",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "7 + 12",
+        "19"
+      ],
+      [
+        "19 * 2",
+        "38"
+      ],
+      [
+        "38 + 2",
+        "40"
+      ],
+      [
+        "40 - 4",
+        "36"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_4_41",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((20 + 10) * 5) + 20) - 15",
+    "answer": "155",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "20 + 10",
+        "30"
+      ],
+      [
+        "30 * 5",
+        "150"
+      ],
+      [
+        "150 + 20",
+        "170"
+      ],
+      [
+        "170 - 15",
+        "155"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_4_42",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((17 + 19) * 6) + 11) - 17",
+    "answer": "210",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "17 + 19",
+        "36"
+      ],
+      [
+        "36 * 6",
+        "216"
+      ],
+      [
+        "216 + 11",
+        "227"
+      ],
+      [
+        "227 - 17",
+        "210"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_4_43",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((14 + 11) * 9) + 4) - 3",
+    "answer": "226",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "14 + 11",
+        "25"
+      ],
+      [
+        "25 * 9",
+        "225"
+      ],
+      [
+        "225 + 4",
+        "229"
+      ],
+      [
+        "229 - 3",
+        "226"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_4_44",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((16 + 15) * 9) + 16) - 8",
+    "answer": "287",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "16 + 15",
+        "31"
+      ],
+      [
+        "31 * 9",
+        "279"
+      ],
+      [
+        "279 + 16",
+        "295"
+      ],
+      [
+        "295 - 8",
+        "287"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_4_45",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((6 + 12) * 7) + 13) - 14",
+    "answer": "125",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "6 + 12",
+        "18"
+      ],
+      [
+        "18 * 7",
+        "126"
+      ],
+      [
+        "126 + 13",
+        "139"
+      ],
+      [
+        "139 - 14",
+        "125"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_4_46",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((13 + 18) * 3) + 12) - 9",
+    "answer": "96",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "13 + 18",
+        "31"
+      ],
+      [
+        "31 * 3",
+        "93"
+      ],
+      [
+        "93 + 12",
+        "105"
+      ],
+      [
+        "105 - 9",
+        "96"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_4_47",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((5 + 10) * 9) + 9) - 6",
+    "answer": "138",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "5 + 10",
+        "15"
+      ],
+      [
+        "15 * 9",
+        "135"
+      ],
+      [
+        "135 + 9",
+        "144"
+      ],
+      [
+        "144 - 6",
+        "138"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_4_48",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((3 + 11) * 8) + 15) - 9",
+    "answer": "118",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "3 + 11",
+        "14"
+      ],
+      [
+        "14 * 8",
+        "112"
+      ],
+      [
+        "112 + 15",
+        "127"
+      ],
+      [
+        "127 - 9",
+        "118"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_4_49",
+    "tier": "depth_4",
+    "axis": "step_depth",
+    "expression": "(((12 + 20) * 7) + 8) - 7",
+    "answer": "225",
+    "num_steps": 4,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub"
+    ],
+    "steps": [
+      [
+        "12 + 20",
+        "32"
+      ],
+      [
+        "32 * 7",
+        "224"
+      ],
+      [
+        "224 + 8",
+        "232"
+      ],
+      [
+        "232 - 7",
+        "225"
+      ]
     ],
     "held_out": true
   },
@@ -2163,8 +7803,8 @@
     "id": "depth_5_00",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((17 + 16) * 7) + 7) - 3) * 4",
-    "answer": "940",
+    "expression": "((((18 + 16) * 9) + 11) - 17) * 2",
+    "answer": "600",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2172,6 +7812,28 @@
       "add",
       "sub",
       "mult"
+    ],
+    "steps": [
+      [
+        "18 + 16",
+        "34"
+      ],
+      [
+        "34 * 9",
+        "306"
+      ],
+      [
+        "306 + 11",
+        "317"
+      ],
+      [
+        "317 - 17",
+        "300"
+      ],
+      [
+        "300 * 2",
+        "600"
+      ]
     ],
     "held_out": false
   },
@@ -2179,8 +7841,8 @@
     "id": "depth_5_01",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((17 + 5) * 3) + 14) - 17) * 2",
-    "answer": "126",
+    "expression": "((((4 + 14) * 9) + 9) - 8) * 4",
+    "answer": "652",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2188,6 +7850,28 @@
       "add",
       "sub",
       "mult"
+    ],
+    "steps": [
+      [
+        "4 + 14",
+        "18"
+      ],
+      [
+        "18 * 9",
+        "162"
+      ],
+      [
+        "162 + 9",
+        "171"
+      ],
+      [
+        "171 - 8",
+        "163"
+      ],
+      [
+        "163 * 4",
+        "652"
+      ]
     ],
     "held_out": false
   },
@@ -2195,8 +7879,8 @@
     "id": "depth_5_02",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((20 + 3) * 4) + 6) - 20) * 4",
-    "answer": "312",
+    "expression": "((((3 + 3) * 6) + 17) - 17) * 4",
+    "answer": "144",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2204,6 +7888,28 @@
       "add",
       "sub",
       "mult"
+    ],
+    "steps": [
+      [
+        "3 + 3",
+        "6"
+      ],
+      [
+        "6 * 6",
+        "36"
+      ],
+      [
+        "36 + 17",
+        "53"
+      ],
+      [
+        "53 - 17",
+        "36"
+      ],
+      [
+        "36 * 4",
+        "144"
+      ]
     ],
     "held_out": false
   },
@@ -2211,8 +7917,8 @@
     "id": "depth_5_03",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((4 + 9) * 3) + 19) - 15) * 3",
-    "answer": "129",
+    "expression": "((((19 + 2) * 3) + 15) - 6) * 4",
+    "answer": "288",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2220,6 +7926,28 @@
       "add",
       "sub",
       "mult"
+    ],
+    "steps": [
+      [
+        "19 + 2",
+        "21"
+      ],
+      [
+        "21 * 3",
+        "63"
+      ],
+      [
+        "63 + 15",
+        "78"
+      ],
+      [
+        "78 - 6",
+        "72"
+      ],
+      [
+        "72 * 4",
+        "288"
+      ]
     ],
     "held_out": false
   },
@@ -2227,8 +7955,8 @@
     "id": "depth_5_04",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((18 + 14) * 9) + 16) - 11) * 5",
-    "answer": "1465",
+    "expression": "((((13 + 14) * 7) + 3) - 14) * 2",
+    "answer": "356",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2236,6 +7964,28 @@
       "add",
       "sub",
       "mult"
+    ],
+    "steps": [
+      [
+        "13 + 14",
+        "27"
+      ],
+      [
+        "27 * 7",
+        "189"
+      ],
+      [
+        "189 + 3",
+        "192"
+      ],
+      [
+        "192 - 14",
+        "178"
+      ],
+      [
+        "178 * 2",
+        "356"
+      ]
     ],
     "held_out": false
   },
@@ -2243,8 +7993,8 @@
     "id": "depth_5_05",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((11 + 20) * 2) + 5) - 8) * 3",
-    "answer": "177",
+    "expression": "((((20 + 19) * 5) + 13) - 19) * 4",
+    "answer": "756",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2252,6 +8002,28 @@
       "add",
       "sub",
       "mult"
+    ],
+    "steps": [
+      [
+        "20 + 19",
+        "39"
+      ],
+      [
+        "39 * 5",
+        "195"
+      ],
+      [
+        "195 + 13",
+        "208"
+      ],
+      [
+        "208 - 19",
+        "189"
+      ],
+      [
+        "189 * 4",
+        "756"
+      ]
     ],
     "held_out": false
   },
@@ -2259,8 +8031,8 @@
     "id": "depth_5_06",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((10 + 4) * 4) + 9) - 7) * 2",
-    "answer": "116",
+    "expression": "((((4 + 14) * 9) + 19) - 10) * 2",
+    "answer": "342",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2268,6 +8040,28 @@
       "add",
       "sub",
       "mult"
+    ],
+    "steps": [
+      [
+        "4 + 14",
+        "18"
+      ],
+      [
+        "18 * 9",
+        "162"
+      ],
+      [
+        "162 + 19",
+        "181"
+      ],
+      [
+        "181 - 10",
+        "171"
+      ],
+      [
+        "171 * 2",
+        "342"
+      ]
     ],
     "held_out": false
   },
@@ -2275,8 +8069,8 @@
     "id": "depth_5_07",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((7 + 2) * 8) + 16) - 17) * 4",
-    "answer": "284",
+    "expression": "((((6 + 5) * 8) + 13) - 12) * 4",
+    "answer": "356",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2284,6 +8078,28 @@
       "add",
       "sub",
       "mult"
+    ],
+    "steps": [
+      [
+        "6 + 5",
+        "11"
+      ],
+      [
+        "11 * 8",
+        "88"
+      ],
+      [
+        "88 + 13",
+        "101"
+      ],
+      [
+        "101 - 12",
+        "89"
+      ],
+      [
+        "89 * 4",
+        "356"
+      ]
     ],
     "held_out": false
   },
@@ -2291,8 +8107,8 @@
     "id": "depth_5_08",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((3 + 9) * 6) + 11) - 16) * 2",
-    "answer": "134",
+    "expression": "((((6 + 8) * 8) + 18) - 3) * 2",
+    "answer": "254",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2300,6 +8116,28 @@
       "add",
       "sub",
       "mult"
+    ],
+    "steps": [
+      [
+        "6 + 8",
+        "14"
+      ],
+      [
+        "14 * 8",
+        "112"
+      ],
+      [
+        "112 + 18",
+        "130"
+      ],
+      [
+        "130 - 3",
+        "127"
+      ],
+      [
+        "127 * 2",
+        "254"
+      ]
     ],
     "held_out": false
   },
@@ -2307,8 +8145,8 @@
     "id": "depth_5_09",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((9 + 10) * 5) + 15) - 5) * 3",
-    "answer": "315",
+    "expression": "((((3 + 6) * 7) + 17) - 18) * 5",
+    "answer": "310",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2316,6 +8154,28 @@
       "add",
       "sub",
       "mult"
+    ],
+    "steps": [
+      [
+        "3 + 6",
+        "9"
+      ],
+      [
+        "9 * 7",
+        "63"
+      ],
+      [
+        "63 + 17",
+        "80"
+      ],
+      [
+        "80 - 18",
+        "62"
+      ],
+      [
+        "62 * 5",
+        "310"
+      ]
     ],
     "held_out": false
   },
@@ -2323,8 +8183,8 @@
     "id": "depth_5_10",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((6 + 10) * 4) + 4) - 3) * 3",
-    "answer": "195",
+    "expression": "((((6 + 18) * 4) + 12) - 12) * 3",
+    "answer": "288",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2332,6 +8192,28 @@
       "add",
       "sub",
       "mult"
+    ],
+    "steps": [
+      [
+        "6 + 18",
+        "24"
+      ],
+      [
+        "24 * 4",
+        "96"
+      ],
+      [
+        "96 + 12",
+        "108"
+      ],
+      [
+        "108 - 12",
+        "96"
+      ],
+      [
+        "96 * 3",
+        "288"
+      ]
     ],
     "held_out": false
   },
@@ -2339,8 +8221,8 @@
     "id": "depth_5_11",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((11 + 20) * 6) + 16) - 5) * 5",
-    "answer": "985",
+    "expression": "((((14 + 11) * 7) + 18) - 18) * 5",
+    "answer": "875",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2348,6 +8230,28 @@
       "add",
       "sub",
       "mult"
+    ],
+    "steps": [
+      [
+        "14 + 11",
+        "25"
+      ],
+      [
+        "25 * 7",
+        "175"
+      ],
+      [
+        "175 + 18",
+        "193"
+      ],
+      [
+        "193 - 18",
+        "175"
+      ],
+      [
+        "175 * 5",
+        "875"
+      ]
     ],
     "held_out": false
   },
@@ -2355,8 +8259,8 @@
     "id": "depth_5_12",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((11 + 14) * 6) + 18) - 19) * 5",
-    "answer": "745",
+    "expression": "((((20 + 11) * 9) + 2) - 13) * 4",
+    "answer": "1072",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2364,6 +8268,28 @@
       "add",
       "sub",
       "mult"
+    ],
+    "steps": [
+      [
+        "20 + 11",
+        "31"
+      ],
+      [
+        "31 * 9",
+        "279"
+      ],
+      [
+        "279 + 2",
+        "281"
+      ],
+      [
+        "281 - 13",
+        "268"
+      ],
+      [
+        "268 * 4",
+        "1072"
+      ]
     ],
     "held_out": false
   },
@@ -2371,8 +8297,8 @@
     "id": "depth_5_13",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((16 + 4) * 2) + 15) - 12) * 4",
-    "answer": "172",
+    "expression": "((((5 + 15) * 6) + 2) - 17) * 4",
+    "answer": "420",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2380,6 +8306,28 @@
       "add",
       "sub",
       "mult"
+    ],
+    "steps": [
+      [
+        "5 + 15",
+        "20"
+      ],
+      [
+        "20 * 6",
+        "120"
+      ],
+      [
+        "120 + 2",
+        "122"
+      ],
+      [
+        "122 - 17",
+        "105"
+      ],
+      [
+        "105 * 4",
+        "420"
+      ]
     ],
     "held_out": false
   },
@@ -2387,8 +8335,8 @@
     "id": "depth_5_14",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((2 + 4) * 5) + 20) - 20) * 2",
-    "answer": "60",
+    "expression": "((((20 + 20) * 5) + 3) - 20) * 5",
+    "answer": "915",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2396,6 +8344,28 @@
       "add",
       "sub",
       "mult"
+    ],
+    "steps": [
+      [
+        "20 + 20",
+        "40"
+      ],
+      [
+        "40 * 5",
+        "200"
+      ],
+      [
+        "200 + 3",
+        "203"
+      ],
+      [
+        "203 - 20",
+        "183"
+      ],
+      [
+        "183 * 5",
+        "915"
+      ]
     ],
     "held_out": false
   },
@@ -2403,8 +8373,8 @@
     "id": "depth_5_15",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((10 + 20) * 2) + 7) - 17) * 5",
-    "answer": "250",
+    "expression": "((((7 + 18) * 8) + 6) - 9) * 2",
+    "answer": "394",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2412,6 +8382,28 @@
       "add",
       "sub",
       "mult"
+    ],
+    "steps": [
+      [
+        "7 + 18",
+        "25"
+      ],
+      [
+        "25 * 8",
+        "200"
+      ],
+      [
+        "200 + 6",
+        "206"
+      ],
+      [
+        "206 - 9",
+        "197"
+      ],
+      [
+        "197 * 2",
+        "394"
+      ]
     ],
     "held_out": false
   },
@@ -2419,8 +8411,8 @@
     "id": "depth_5_16",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((10 + 7) * 8) + 17) - 4) * 5",
-    "answer": "745",
+    "expression": "((((20 + 5) * 5) + 2) - 16) * 4",
+    "answer": "444",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2429,14 +8421,36 @@
       "sub",
       "mult"
     ],
-    "held_out": true
+    "steps": [
+      [
+        "20 + 5",
+        "25"
+      ],
+      [
+        "25 * 5",
+        "125"
+      ],
+      [
+        "125 + 2",
+        "127"
+      ],
+      [
+        "127 - 16",
+        "111"
+      ],
+      [
+        "111 * 4",
+        "444"
+      ]
+    ],
+    "held_out": false
   },
   {
     "id": "depth_5_17",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((13 + 15) * 7) + 12) - 5) * 3",
-    "answer": "609",
+    "expression": "((((15 + 6) * 8) + 8) - 15) * 5",
+    "answer": "805",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2445,14 +8459,36 @@
       "sub",
       "mult"
     ],
-    "held_out": true
+    "steps": [
+      [
+        "15 + 6",
+        "21"
+      ],
+      [
+        "21 * 8",
+        "168"
+      ],
+      [
+        "168 + 8",
+        "176"
+      ],
+      [
+        "176 - 15",
+        "161"
+      ],
+      [
+        "161 * 5",
+        "805"
+      ]
+    ],
+    "held_out": false
   },
   {
     "id": "depth_5_18",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((12 + 15) * 9) + 11) - 14) * 2",
-    "answer": "480",
+    "expression": "((((3 + 6) * 5) + 19) - 12) * 5",
+    "answer": "260",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2461,14 +8497,36 @@
       "sub",
       "mult"
     ],
-    "held_out": true
+    "steps": [
+      [
+        "3 + 6",
+        "9"
+      ],
+      [
+        "9 * 5",
+        "45"
+      ],
+      [
+        "45 + 19",
+        "64"
+      ],
+      [
+        "64 - 12",
+        "52"
+      ],
+      [
+        "52 * 5",
+        "260"
+      ]
+    ],
+    "held_out": false
   },
   {
     "id": "depth_5_19",
     "tier": "depth_5",
     "axis": "step_depth",
-    "expression": "((((16 + 4) * 7) + 10) - 12) * 2",
-    "answer": "276",
+    "expression": "((((18 + 14) * 7) + 7) - 16) * 4",
+    "answer": "860",
     "num_steps": 5,
     "operations": [
       "add",
@@ -2476,6 +8534,1168 @@
       "add",
       "sub",
       "mult"
+    ],
+    "steps": [
+      [
+        "18 + 14",
+        "32"
+      ],
+      [
+        "32 * 7",
+        "224"
+      ],
+      [
+        "224 + 7",
+        "231"
+      ],
+      [
+        "231 - 16",
+        "215"
+      ],
+      [
+        "215 * 4",
+        "860"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_20",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((19 + 13) * 6) + 17) - 8) * 3",
+    "answer": "603",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "19 + 13",
+        "32"
+      ],
+      [
+        "32 * 6",
+        "192"
+      ],
+      [
+        "192 + 17",
+        "209"
+      ],
+      [
+        "209 - 8",
+        "201"
+      ],
+      [
+        "201 * 3",
+        "603"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_21",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((10 + 19) * 6) + 9) - 11) * 4",
+    "answer": "688",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "10 + 19",
+        "29"
+      ],
+      [
+        "29 * 6",
+        "174"
+      ],
+      [
+        "174 + 9",
+        "183"
+      ],
+      [
+        "183 - 11",
+        "172"
+      ],
+      [
+        "172 * 4",
+        "688"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_22",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((8 + 17) * 7) + 17) - 13) * 4",
+    "answer": "716",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "8 + 17",
+        "25"
+      ],
+      [
+        "25 * 7",
+        "175"
+      ],
+      [
+        "175 + 17",
+        "192"
+      ],
+      [
+        "192 - 13",
+        "179"
+      ],
+      [
+        "179 * 4",
+        "716"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_23",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((11 + 5) * 8) + 14) - 13) * 3",
+    "answer": "387",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "11 + 5",
+        "16"
+      ],
+      [
+        "16 * 8",
+        "128"
+      ],
+      [
+        "128 + 14",
+        "142"
+      ],
+      [
+        "142 - 13",
+        "129"
+      ],
+      [
+        "129 * 3",
+        "387"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_24",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((11 + 3) * 6) + 4) - 13) * 5",
+    "answer": "375",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "11 + 3",
+        "14"
+      ],
+      [
+        "14 * 6",
+        "84"
+      ],
+      [
+        "84 + 4",
+        "88"
+      ],
+      [
+        "88 - 13",
+        "75"
+      ],
+      [
+        "75 * 5",
+        "375"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_25",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((10 + 17) * 5) + 8) - 19) * 4",
+    "answer": "496",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "10 + 17",
+        "27"
+      ],
+      [
+        "27 * 5",
+        "135"
+      ],
+      [
+        "135 + 8",
+        "143"
+      ],
+      [
+        "143 - 19",
+        "124"
+      ],
+      [
+        "124 * 4",
+        "496"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_26",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((19 + 10) * 4) + 5) - 20) * 3",
+    "answer": "303",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "19 + 10",
+        "29"
+      ],
+      [
+        "29 * 4",
+        "116"
+      ],
+      [
+        "116 + 5",
+        "121"
+      ],
+      [
+        "121 - 20",
+        "101"
+      ],
+      [
+        "101 * 3",
+        "303"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_27",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((9 + 3) * 5) + 9) - 3) * 2",
+    "answer": "132",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "9 + 3",
+        "12"
+      ],
+      [
+        "12 * 5",
+        "60"
+      ],
+      [
+        "60 + 9",
+        "69"
+      ],
+      [
+        "69 - 3",
+        "66"
+      ],
+      [
+        "66 * 2",
+        "132"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_28",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((15 + 12) * 9) + 5) - 6) * 2",
+    "answer": "484",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "15 + 12",
+        "27"
+      ],
+      [
+        "27 * 9",
+        "243"
+      ],
+      [
+        "243 + 5",
+        "248"
+      ],
+      [
+        "248 - 6",
+        "242"
+      ],
+      [
+        "242 * 2",
+        "484"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_29",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((19 + 7) * 8) + 17) - 17) * 3",
+    "answer": "624",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "19 + 7",
+        "26"
+      ],
+      [
+        "26 * 8",
+        "208"
+      ],
+      [
+        "208 + 17",
+        "225"
+      ],
+      [
+        "225 - 17",
+        "208"
+      ],
+      [
+        "208 * 3",
+        "624"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_30",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((11 + 12) * 6) + 3) - 4) * 3",
+    "answer": "411",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "11 + 12",
+        "23"
+      ],
+      [
+        "23 * 6",
+        "138"
+      ],
+      [
+        "138 + 3",
+        "141"
+      ],
+      [
+        "141 - 4",
+        "137"
+      ],
+      [
+        "137 * 3",
+        "411"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_31",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((19 + 3) * 4) + 15) - 7) * 2",
+    "answer": "192",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "19 + 3",
+        "22"
+      ],
+      [
+        "22 * 4",
+        "88"
+      ],
+      [
+        "88 + 15",
+        "103"
+      ],
+      [
+        "103 - 7",
+        "96"
+      ],
+      [
+        "96 * 2",
+        "192"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_32",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((14 + 17) * 4) + 11) - 3) * 2",
+    "answer": "264",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "14 + 17",
+        "31"
+      ],
+      [
+        "31 * 4",
+        "124"
+      ],
+      [
+        "124 + 11",
+        "135"
+      ],
+      [
+        "135 - 3",
+        "132"
+      ],
+      [
+        "132 * 2",
+        "264"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_33",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((11 + 20) * 3) + 12) - 11) * 5",
+    "answer": "470",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "11 + 20",
+        "31"
+      ],
+      [
+        "31 * 3",
+        "93"
+      ],
+      [
+        "93 + 12",
+        "105"
+      ],
+      [
+        "105 - 11",
+        "94"
+      ],
+      [
+        "94 * 5",
+        "470"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_34",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((19 + 18) * 9) + 6) - 18) * 5",
+    "answer": "1605",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "19 + 18",
+        "37"
+      ],
+      [
+        "37 * 9",
+        "333"
+      ],
+      [
+        "333 + 6",
+        "339"
+      ],
+      [
+        "339 - 18",
+        "321"
+      ],
+      [
+        "321 * 5",
+        "1605"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_35",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((10 + 8) * 3) + 12) - 7) * 5",
+    "answer": "295",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "10 + 8",
+        "18"
+      ],
+      [
+        "18 * 3",
+        "54"
+      ],
+      [
+        "54 + 12",
+        "66"
+      ],
+      [
+        "66 - 7",
+        "59"
+      ],
+      [
+        "59 * 5",
+        "295"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_36",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((10 + 7) * 2) + 12) - 11) * 3",
+    "answer": "105",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "10 + 7",
+        "17"
+      ],
+      [
+        "17 * 2",
+        "34"
+      ],
+      [
+        "34 + 12",
+        "46"
+      ],
+      [
+        "46 - 11",
+        "35"
+      ],
+      [
+        "35 * 3",
+        "105"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_37",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((7 + 14) * 8) + 18) - 12) * 2",
+    "answer": "348",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "7 + 14",
+        "21"
+      ],
+      [
+        "21 * 8",
+        "168"
+      ],
+      [
+        "168 + 18",
+        "186"
+      ],
+      [
+        "186 - 12",
+        "174"
+      ],
+      [
+        "174 * 2",
+        "348"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_38",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((14 + 5) * 4) + 6) - 17) * 4",
+    "answer": "260",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "14 + 5",
+        "19"
+      ],
+      [
+        "19 * 4",
+        "76"
+      ],
+      [
+        "76 + 6",
+        "82"
+      ],
+      [
+        "82 - 17",
+        "65"
+      ],
+      [
+        "65 * 4",
+        "260"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_39",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((9 + 2) * 6) + 14) - 9) * 5",
+    "answer": "355",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "9 + 2",
+        "11"
+      ],
+      [
+        "11 * 6",
+        "66"
+      ],
+      [
+        "66 + 14",
+        "80"
+      ],
+      [
+        "80 - 9",
+        "71"
+      ],
+      [
+        "71 * 5",
+        "355"
+      ]
+    ],
+    "held_out": false
+  },
+  {
+    "id": "depth_5_40",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((10 + 12) * 6) + 20) - 20) * 2",
+    "answer": "264",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "10 + 12",
+        "22"
+      ],
+      [
+        "22 * 6",
+        "132"
+      ],
+      [
+        "132 + 20",
+        "152"
+      ],
+      [
+        "152 - 20",
+        "132"
+      ],
+      [
+        "132 * 2",
+        "264"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_5_41",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((10 + 13) * 5) + 3) - 5) * 5",
+    "answer": "565",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "10 + 13",
+        "23"
+      ],
+      [
+        "23 * 5",
+        "115"
+      ],
+      [
+        "115 + 3",
+        "118"
+      ],
+      [
+        "118 - 5",
+        "113"
+      ],
+      [
+        "113 * 5",
+        "565"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_5_42",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((11 + 7) * 8) + 18) - 11) * 2",
+    "answer": "302",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "11 + 7",
+        "18"
+      ],
+      [
+        "18 * 8",
+        "144"
+      ],
+      [
+        "144 + 18",
+        "162"
+      ],
+      [
+        "162 - 11",
+        "151"
+      ],
+      [
+        "151 * 2",
+        "302"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_5_43",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((11 + 13) * 5) + 9) - 6) * 5",
+    "answer": "615",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "11 + 13",
+        "24"
+      ],
+      [
+        "24 * 5",
+        "120"
+      ],
+      [
+        "120 + 9",
+        "129"
+      ],
+      [
+        "129 - 6",
+        "123"
+      ],
+      [
+        "123 * 5",
+        "615"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_5_44",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((6 + 16) * 7) + 15) - 19) * 5",
+    "answer": "750",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "6 + 16",
+        "22"
+      ],
+      [
+        "22 * 7",
+        "154"
+      ],
+      [
+        "154 + 15",
+        "169"
+      ],
+      [
+        "169 - 19",
+        "150"
+      ],
+      [
+        "150 * 5",
+        "750"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_5_45",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((19 + 8) * 5) + 4) - 18) * 5",
+    "answer": "605",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "19 + 8",
+        "27"
+      ],
+      [
+        "27 * 5",
+        "135"
+      ],
+      [
+        "135 + 4",
+        "139"
+      ],
+      [
+        "139 - 18",
+        "121"
+      ],
+      [
+        "121 * 5",
+        "605"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_5_46",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((18 + 13) * 3) + 20) - 5) * 2",
+    "answer": "216",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "18 + 13",
+        "31"
+      ],
+      [
+        "31 * 3",
+        "93"
+      ],
+      [
+        "93 + 20",
+        "113"
+      ],
+      [
+        "113 - 5",
+        "108"
+      ],
+      [
+        "108 * 2",
+        "216"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_5_47",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((19 + 18) * 5) + 20) - 19) * 3",
+    "answer": "558",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "19 + 18",
+        "37"
+      ],
+      [
+        "37 * 5",
+        "185"
+      ],
+      [
+        "185 + 20",
+        "205"
+      ],
+      [
+        "205 - 19",
+        "186"
+      ],
+      [
+        "186 * 3",
+        "558"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_5_48",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((7 + 12) * 9) + 5) - 8) * 5",
+    "answer": "840",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "7 + 12",
+        "19"
+      ],
+      [
+        "19 * 9",
+        "171"
+      ],
+      [
+        "171 + 5",
+        "176"
+      ],
+      [
+        "176 - 8",
+        "168"
+      ],
+      [
+        "168 * 5",
+        "840"
+      ]
+    ],
+    "held_out": true
+  },
+  {
+    "id": "depth_5_49",
+    "tier": "depth_5",
+    "axis": "step_depth",
+    "expression": "((((4 + 18) * 9) + 3) - 16) * 3",
+    "answer": "555",
+    "num_steps": 5,
+    "operations": [
+      "add",
+      "mult",
+      "add",
+      "sub",
+      "mult"
+    ],
+    "steps": [
+      [
+        "4 + 18",
+        "22"
+      ],
+      [
+        "22 * 9",
+        "198"
+      ],
+      [
+        "198 + 3",
+        "201"
+      ],
+      [
+        "201 - 16",
+        "185"
+      ],
+      [
+        "185 * 3",
+        "555"
+      ]
     ],
     "held_out": true
   }

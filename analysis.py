@@ -88,7 +88,7 @@ def sigmoid(x_log, L, k, x0):
 
 # ---------------- data loading ----------------
 
-def load(shots=None, exclude_heldout=False):
+def load(shots=None, exclude_heldout=False, scratchpad=None):
     if not SCORED_PATH.exists():
         raise SystemExit(f"No scored outputs at {SCORED_PATH}. Run inference.py then scoring.py.")
     records = []
@@ -97,6 +97,8 @@ def load(shots=None, exclude_heldout=False):
             continue
         r = json.loads(line)
         if shots is not None and r.get("shots") != shots:
+            continue
+        if scratchpad is not None and bool(r.get("scratchpad")) != scratchpad:
             continue
         if exclude_heldout and r.get("held_out"):
             continue
@@ -434,9 +436,13 @@ def main():
     ap.add_argument("--shots", type=int, default=None,
                     help="restrict analysis to one prompt condition (0 or 3)")
     ap.add_argument("--exclude_heldout", action="store_true")
+    ap.add_argument("--scratchpad", dest="scratchpad", action="store_true", default=None,
+                    help="analyse ONLY scratchpad rows")
+    ap.add_argument("--no_scratchpad", dest="scratchpad", action="store_false",
+                    help="analyse ONLY standard (non-scratchpad) rows")
     args = ap.parse_args()
 
-    records = load(args.shots, args.exclude_heldout)
+    records = load(args.shots, args.exclude_heldout, args.scratchpad)
     agg = aggregate(records)
 
     print("=" * 78)
