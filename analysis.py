@@ -42,7 +42,19 @@ RESULTS_DIR = Path(__file__).parent / "results"
 SCORED_PATH = RESULTS_DIR / "scored_outputs.jsonl"
 PLOTS_DIR = RESULTS_DIR / "plots"
 
+# Two model families. NOTE: Pythia is a controlled scaling suite (identical
+# architecture, data and data order across sizes), so scale is cleanly
+# isolated. Qwen3 is NOT — sizes differ in training compute and data volume.
+# Qwen3 therefore serves as a cross-architecture robustness check on the
+# PHENOMENON, not as a second controlled scaling analysis. Do not pool the
+# two families in a single scaling curve.
 MODEL_SIZE_MAP = {
+    # --- Qwen3 base models (cross-architecture check) ---
+    "Qwen/Qwen3-0.6B-Base": 0.6e9,
+    "Qwen/Qwen3-1.7B-Base": 1.7e9,
+    "Qwen/Qwen3-4B-Base": 4.0e9,
+    "Qwen/Qwen3-8B-Base": 8.0e9,
+    # --- Pythia (controlled scaling suite) ---
     "EleutherAI/pythia-70m": 70e6,
     "EleutherAI/pythia-160m": 160e6,
     "EleutherAI/pythia-410m": 410e6,
@@ -88,7 +100,11 @@ def sigmoid(x_log, L, k, x0):
 
 # ---------------- data loading ----------------
 
-def load(shots=None, exclude_heldout=False, scratchpad=None):
+def family_of(model_name):
+    return "qwen" if model_name.lower().startswith("qwen") else "pythia"
+
+
+def load(shots=None, exclude_heldout=False, scratchpad=None, family=None):
     if not SCORED_PATH.exists():
         raise SystemExit(f"No scored outputs at {SCORED_PATH}. Run inference.py then scoring.py.")
     records = []
@@ -99,6 +115,8 @@ def load(shots=None, exclude_heldout=False, scratchpad=None):
         if shots is not None and r.get("shots") != shots:
             continue
         if scratchpad is not None and bool(r.get("scratchpad")) != scratchpad:
+            continue
+        if family is not None and family_of(r["model"]) != family:
             continue
         if exclude_heldout and r.get("held_out"):
             continue
@@ -440,9 +458,13 @@ def main():
                     help="analyse ONLY scratchpad rows")
     ap.add_argument("--no_scratchpad", dest="scratchpad", action="store_false",
                     help="analyse ONLY standard (non-scratchpad) rows")
+    ap.add_argument("--family", choices=["pythia", "qwen"], default=None,
+                    help="restrict to one model family. The families are NOT "
+                         "pooled by default in interpretation: Pythia is a "
+                         "controlled scaling suite, Qwen3 is not.")
     args = ap.parse_args()
 
-    records = load(args.shots, args.exclude_heldout, args.scratchpad)
+    records = load(args.shots, args.exclude_heldout, args.scratchpad, args.family)
     agg = aggregate(records)
 
     print("=" * 78)

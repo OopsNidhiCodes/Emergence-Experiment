@@ -27,6 +27,10 @@ INDUCTION_PATH = RESULTS_DIR / "induction_scores.jsonl"
 
 # transformer_lens short name -> Hugging Face repo name
 NAME_MAP = {
+    "Qwen/Qwen3-0.6B-Base": "Qwen/Qwen3-0.6B-Base",
+    "Qwen/Qwen3-1.7B-Base": "Qwen/Qwen3-1.7B-Base",
+    "Qwen/Qwen3-4B-Base": "Qwen/Qwen3-4B-Base",
+    "Qwen/Qwen3-8B-Base": "Qwen/Qwen3-8B-Base",
     "pythia-70m": "EleutherAI/pythia-70m",
     "pythia-160m": "EleutherAI/pythia-160m",
     "pythia-410m": "EleutherAI/pythia-410m",
@@ -47,19 +51,34 @@ ACCURACY_JUMP_THRESHOLD = 0.15     # accuracy increase between adjacent sizes co
 
 
 def compounding_summary(agg):
-    if "depth_1" not in agg:
+    """
+    Operation-aware compounding summary, matching analysis.py exactly.
+    (An earlier version used p_add**k, which mixed operations of different
+    difficulty and reported a different MAE than analysis.py for the same
+    data. Both now estimate one probability per OPERATION and multiply along
+    each item's real operation sequence.)
+    """
+    OP_TIERS = {"add": "depth_1", "mult": "mult_single", "sub": "sub_single"}
+    if any(t not in agg for t in OP_TIERS.values()):
         return None
-    depth_tiers = sorted([t for t in agg if t.startswith("depth_")],
+
+    depth_tiers = sorted([t for t in agg if t.startswith("depth_") and t != "depth_1"],
                          key=lambda t: int(t.split("_")[1]))
     resid, inside, total = [], 0, 0
-    for size in sorted(agg["depth_1"]):
-        p = agg["depth_1"][size]["accuracy"]
+    for size in sorted(agg["depth_1"].keys()):
+        p = {op: agg[t][size]["accuracy"] for op, t in OP_TIERS.items() if size in agg[t]}
+        if len(p) < 3:
+            continue
         for tier in depth_tiers:
-            k = int(tier.split("_")[1])
-            if k == 1 or size not in agg[tier]:
+            if size not in agg[tier]:
                 continue
             d = agg[tier][size]
-            pred = p ** k
+            ops = d.get("operations")
+            if not ops:
+                continue
+            pred = 1.0
+            for op in ops:
+                pred *= p.get(op, 0.0)
             resid.append(abs(d["accuracy"] - pred))
             total += 1
             if d["ci_low"] <= pred <= d["ci_high"]:
