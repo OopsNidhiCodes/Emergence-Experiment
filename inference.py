@@ -72,7 +72,21 @@ def get_answer_log_prob(model, tokenizer, prompt, answer, device):
         tok_id = full_ids[0, prompt_ids.shape[1] + j]
         total += log_probs[0, pos, tok_id].item()
 
-    return total / answer_len
+    # Return BOTH the sum and the per-token mean.
+    #
+    # These differ in comparability across tokenizers, which matters here
+    # because Pythia and Qwen3 tokenize numbers very differently:
+    #   Pythia:  " 115" -> 1 token
+    #   Qwen3:   " 115" -> 4 tokens (space, '1', '1', '5')
+    # The per-token MEAN is therefore not comparable across families -
+    # predicting one digit at a time given the previous digits is far easier
+    # than predicting a whole number in one step, so a digit-splitting
+    # tokenizer looks better at identical capability.
+    #
+    # The SUM is log P(complete answer string | prompt), which is
+    # tokenizer-independent and is the quantity that corresponds to
+    # exact-match scoring. Use the sum for any cross-family comparison.
+    return {"sum": total, "mean": total / answer_len, "n_tokens": answer_len}
 
 
 def generate_answer(model, tokenizer, prompt, device, max_new_tokens=12):
@@ -158,7 +172,7 @@ def run_model(model_name, shots, overwrite, out_name=DEFAULT_OUT, fp16=False,
             predicted = extract_answer(generated)
             exact_match = int(predicted == t["answer"]) if predicted is not None else 0
             n_correct += exact_match
-            log_prob = get_answer_log_prob(model, tokenizer, prompt, t["answer"], device)
+            lp = get_answer_log_prob(model, tokenizer, prompt, t["answer"], device)
 
             f.write(json.dumps({
                 "model": model_name,
@@ -176,7 +190,9 @@ def run_model(model_name, shots, overwrite, out_name=DEFAULT_OUT, fp16=False,
                 "generated_text": generated,
                 "predicted_answer": predicted,
                 "exact_match": exact_match,
-                "log_prob": log_prob,
+                "log_prob": lp["mean"] if lp else None,        # per-token mean
+                "log_prob_sum": lp["sum"] if lp else None,      # tokenizer-independent
+                "answer_n_tokens": lp["n_tokens"] if lp else None,
             }) + "\n")
 
             if n_run % 20 == 0:

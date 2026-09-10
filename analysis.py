@@ -128,7 +128,7 @@ def load(shots=None, exclude_heldout=False, scratchpad=None, family=None):
 
 def aggregate(records):
     """-> {tier: {size: {accuracy, lo, hi, n, mean_log_prob, num_steps}}}"""
-    agg = defaultdict(lambda: defaultdict(lambda: {"c": 0, "n": 0, "lp": [], "k": None, "ops": None}))
+    agg = defaultdict(lambda: defaultdict(lambda: {"c": 0, "n": 0, "lp": [], "lps": [], "k": None, "ops": None}))
     unknown = set()
     for r in records:
         size = MODEL_SIZE_MAP.get(r["model"])
@@ -143,6 +143,8 @@ def aggregate(records):
             b["ops"] = r["operations"]
         if r.get("log_prob") is not None:
             b["lp"].append(r["log_prob"])
+        if r.get("log_prob_sum") is not None:
+            b["lps"].append(r["log_prob_sum"])
     if unknown:
         print(f"WARNING: unknown model name(s) skipped: {unknown}")
         print("         add them to MODEL_SIZE_MAP at the top of analysis.py\n")
@@ -158,6 +160,7 @@ def aggregate(records):
                 "ci_high": hi,
                 "n": b["n"],
                 "mean_log_prob": float(np.mean(b["lp"])) if b["lp"] else None,
+                "mean_log_prob_sum": float(np.mean(b["lps"])) if b["lps"] else None,
                 "num_steps": b["k"],
                 "operations": b["ops"],
             }
